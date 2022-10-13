@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-
+import { FaClipboardList } from '@react-icons/all-files/fa/FaClipboardList'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -35,10 +35,10 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  ToDo List
+                  <FaClipboardList className='mt-1 mr-1' /> ToDo List
                 </a>
               )}
             </Menu.Item>
