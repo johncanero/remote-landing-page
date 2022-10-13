@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import NavbarDropdown from "../components/NavbarDropdown";
+import NavbarDropdown from "../components/FeaturesDropdown";
 
 
 const Home: NextPage = () => {

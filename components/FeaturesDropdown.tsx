@@ -2,17 +2,18 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
 
-export default function Example(props) {
+export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center bg-white px-4 py-2 text-lg font-medium text-gray-700">
-          {props.link}
+        <Menu.Button className="inline-flex w-full justify-center bg-white ml-5 py-2 text-lg font-medium text-gray-600">
+            Features
           <ChevronDownIcon className="ml-1 mt-1 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
       </div>
@@ -33,11 +34,11 @@ export default function Example(props) {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
+                    'block px-4 py-2 text-lg font-medium'
                   )}
                 >
-                  Todo List
+                  ToDo List
                 </a>
               )}
             </Menu.Item>
@@ -46,8 +47,8 @@ export default function Example(props) {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
+                    'block px-4 py-2 text-lg font-medium'
                   )}
                 >
                   Calendars
@@ -59,8 +60,8 @@ export default function Example(props) {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
+                    'block px-4 py-2 text-lg font-medium'
                   )}
                 >
                   Reminders
@@ -73,8 +74,8 @@ export default function Example(props) {
                   <button
                     type="submit"
                     className={classNames(
-                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block w-full px-4 py-2 text-left text-sm'
+                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
+                      'block w-full px-4 py-2 text-left text-lg font-medium'
                     )}
                   >
                     Planning

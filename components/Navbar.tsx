@@ -3,8 +3,10 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import NavbarDropdown from '../components/NavbarDropdown'
+import FeaturesDropdown from './FeaturesDropdown'
+import CompanyDropdown from './Company Dropdown'
 import RemoteLogo from "../public/images/remoteLogo.png";
+
 
 
 
@@ -44,9 +46,9 @@ const Navbar = () => {
                   </div>
 
                    {/* Links */}
-                  <NavbarDropdown 
-                    link="Feature"
-                  />
+                  <FeaturesDropdown  />
+                  <CompanyDropdown />
+                  
                 </div>
 
                
