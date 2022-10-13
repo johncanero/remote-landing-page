@@ -40,7 +40,7 @@ export default function Example() {
                     'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  <FaHistory className='mt-1 mr-1' />History
+                  <FaHistory className='mt-1 mr-1 text-remoteLightBrown' />History
                 </a>
               )}
             </Menu.Item>
@@ -53,7 +53,7 @@ export default function Example() {
                     'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  <GiTeamDowngrade className='mt-1 mr-1' />Our Team
+                  <GiTeamDowngrade className='mt-1 mr-1 text-remoteBlue' />Our Team
                 </a>
               )}
             </Menu.Item>
@@ -66,7 +66,7 @@ export default function Example() {
                     'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  <FaBlogger className='mt-1 mr-1'/>Blog
+                  <FaBlogger className='mt-1 mr-1 text-remoteOrange'/>Blog
                 </a>
               )}
             </Menu.Item>
