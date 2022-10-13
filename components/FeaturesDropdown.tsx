@@ -2,6 +2,9 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { FaClipboardList } from '@react-icons/all-files/fa/FaClipboardList'
+import { FaCalendarAlt } from '@react-icons/all-files/fa/FaCalendarAlt'
+import { FaClipboard } from '@react-icons/all-files/fa/FaClipboard'
+import { BsGear } from '@react-icons/all-files/bs/BsGear'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -48,10 +51,10 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  Calendars
+                 <FaCalendarAlt className='mt-1 mr-1' />  Calendars
                 </a>
               )}
             </Menu.Item>
@@ -61,10 +64,10 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  Reminders
+                  <FaClipboard className='mt-1 mr-1' /> Reminders
                 </a>
               )}
             </Menu.Item>
@@ -75,10 +78,10 @@ export default function Example() {
                     type="submit"
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                      'block w-full px-4 py-2 text-left text-base font-medium'
+                      'flex w-full px-4 py-2 text-left text-base font-medium'
                     )}
                   >
-                    Planning
+                    <BsGear className='mt-1 mr-1' /> Planning
                   </button>
                 )}
               </Menu.Item>
