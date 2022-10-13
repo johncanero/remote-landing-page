@@ -35,7 +35,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-lg font-medium'
+                    'block px-4 py-2 text-base font-medium'
                   )}
                 >
                   ToDo List
@@ -48,7 +48,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-lg font-medium'
+                    'block px-4 py-2 text-base font-medium'
                   )}
                 >
                   Calendars
@@ -61,7 +61,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-lg font-medium'
+                    'block px-4 py-2 text-base font-medium'
                   )}
                 >
                   Reminders
@@ -75,7 +75,7 @@ export default function Example() {
                     type="submit"
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                      'block w-full px-4 py-2 text-left text-lg font-medium'
+                      'block w-full px-4 py-2 text-left text-base font-medium'
                     )}
                   >
                     Planning
