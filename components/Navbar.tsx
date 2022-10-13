@@ -46,6 +46,19 @@ const Navbar = () => {
                   {/* Links */}
                   <FeaturesDropdown />
                   <CompanyDropdown />
+                  <a
+                    href="#"
+                    className=" bg-white ml-5 py-2 text-lg font-medium text-gray-600"
+                  >
+                    Careers
+                  </a>
+
+                  <a
+                    href="#"
+                    className=" bg-white ml-5 py-2 text-lg font-medium text-gray-600"
+                  >
+                    About
+                  </a>    
                 </div>
 
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
