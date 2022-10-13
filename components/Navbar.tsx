@@ -48,14 +48,14 @@ const Navbar = () => {
                   <CompanyDropdown />
                   <a
                     href="#"
-                    className=" bg-white ml-5 py-2 text-lg font-medium text-gray-600"
+                    className=" bg-white ml-6 py-2 text-base font-medium text-gray-600"
                   >
                     Careers
                   </a>
 
                   <a
                     href="#"
-                    className=" bg-white ml-5 py-2 text-lg font-medium text-gray-600"
+                    className=" bg-white ml-6 py-2 text-base font-medium text-gray-600"
                   >
                     About
                   </a>    

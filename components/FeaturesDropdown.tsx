@@ -12,7 +12,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full  bg-white ml-5 py-2 text-lg font-medium text-gray-600">
+        <Menu.Button className="inline-flex w-full  bg-white ml-5 py-2 text-base font-medium text-gray-600">
             Features
           <ChevronDownIcon className="ml-1 mt-1 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
