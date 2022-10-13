@@ -22,7 +22,6 @@ const Home: NextPage = () => {
 
       <main>
         <Navbar />
-        <NavbarDropdown />
       </main>
 
       <footer></footer>
