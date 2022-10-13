@@ -1,7 +1,9 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-
+import { FaHistory } from '@react-icons/all-files/fa/FaHistory'
+import { FaBlogger } from '@react-icons/all-files/fa/FaBlogger'
+import { GiTeamDowngrade } from '@react-icons/all-files/gi/GiTeamDowngrade'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -35,10 +37,10 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  History
+                  <FaHistory className='mt-1 mr-1' />History
                 </a>
               )}
             </Menu.Item>
@@ -48,10 +50,10 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  Our Team
+                  <GiTeamDowngrade className='mt-1 mr-1' />Our Team
                 </a>
               )}
             </Menu.Item>
@@ -61,10 +63,10 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'block px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  Blog
+                  <FaBlogger className='mt-1 mr-1'/>Blog
                 </a>
               )}
             </Menu.Item>
