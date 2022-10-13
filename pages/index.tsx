@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <meta property="og:title" content="remote-work-page"/>
         <meta property="og:type" content="landing page" />
         <meta property="og:description" content="remote.description" />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/images/remoteIcon.png" />
       </Head>
 
       <main>
