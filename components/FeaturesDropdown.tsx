@@ -15,7 +15,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full  bg-white ml-5 py-2 text-base font-medium text-gray-600">
+        <Menu.Button className="inline-flex w-full  bg-white ml-6 py-2 text-base font-Poppins font-medium text-gray-600 hover:text-gray-800">
             Features
           <ChevronDownIcon className="ml-1 mt-1 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
@@ -38,7 +38,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'flex px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-Poppins font-medium'
                   )}
                 >
                   <FaClipboardList className='mt-1 mr-1 text-remoteOrange' /> ToDo List
@@ -51,7 +51,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'flex px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-Poppins font-medium'
                   )}
                 >
                  <FaCalendarAlt className='mt-1 mr-1 text-remoteBlue'/>  Calendars
@@ -64,7 +64,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'flex px-4 py-2 text-base font-medium'
+                    'flex px-4 py-2 text-base font-Poppins font-medium'
                   )}
                 >
                   <FaClipboard className='mt-1 mr-1 text-remoteLightBrown'/> Reminders
@@ -78,7 +78,7 @@ export default function Example() {
                     type="submit"
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                      'flex w-full px-4 py-2 text-left text-base font-medium'
+                      'flex w-full px-4 py-2 text-left text-base font-Poppins font-medium'
                     )}
                   >
                     <BsGearFill className='mt-1 mr-1 text-slate-700'/> Planning
