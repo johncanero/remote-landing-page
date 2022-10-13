@@ -13,7 +13,9 @@ module.exports = {
     },
     extend: {
       colors: {
-      
+        remoteBlue: '#5489FF',
+        remoteOrange: '#FFC431',
+        remoteLightBrown: '#C88640'
       },
     },
     fontFamily: {

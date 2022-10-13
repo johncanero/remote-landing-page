@@ -4,7 +4,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { FaClipboardList } from '@react-icons/all-files/fa/FaClipboardList'
 import { FaCalendarAlt } from '@react-icons/all-files/fa/FaCalendarAlt'
 import { FaClipboard } from '@react-icons/all-files/fa/FaClipboard'
-import { BsGear } from '@react-icons/all-files/bs/BsGear'
+import { BsGearFill } from '@react-icons/all-files/bs/BsGearFill'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -41,7 +41,7 @@ export default function Example() {
                     'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  <FaClipboardList className='mt-1 mr-1' /> ToDo List
+                  <FaClipboardList className='mt-1 mr-1 text-remoteOrange' /> ToDo List
                 </a>
               )}
             </Menu.Item>
@@ -54,7 +54,7 @@ export default function Example() {
                     'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                 <FaCalendarAlt className='mt-1 mr-1' />  Calendars
+                 <FaCalendarAlt className='mt-1 mr-1 text-remoteBlue'/>  Calendars
                 </a>
               )}
             </Menu.Item>
@@ -67,7 +67,7 @@ export default function Example() {
                     'flex px-4 py-2 text-base font-medium'
                   )}
                 >
-                  <FaClipboard className='mt-1 mr-1' /> Reminders
+                  <FaClipboard className='mt-1 mr-1 text-remoteLightBrown'/> Reminders
                 </a>
               )}
             </Menu.Item>
@@ -81,7 +81,7 @@ export default function Example() {
                       'flex w-full px-4 py-2 text-left text-base font-medium'
                     )}
                   >
-                    <BsGear className='mt-1 mr-1' /> Planning
+                    <BsGearFill className='mt-1 mr-1 text-slate-700'/> Planning
                   </button>
                 )}
               </Menu.Item>
