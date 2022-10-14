@@ -21,19 +21,8 @@ const Navbar = () => {
       <Disclosure as="nav" className="bg-white">
         {({ open }) => (
           <div>
-            <div className="mx-auto px-2 sm:px-6 lg:px-8 shadow-md">
+            <div className="sm:hidden md:block mx-auto px-2 sm:px-6 lg:px-8 shadow-md">
               <div className="relative flex h-20 items-center justify-between">
-                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                  {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                    <span className="sr-only">Open main menu</span>
-                    {open ? (
-                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                    ) : (
-                      <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                    )}
-                  </Disclosure.Button>
-                </div>
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 h-8 md:w-32 lg:w-44 items-center">
                     {/* Image */}
@@ -58,7 +47,7 @@ const Navbar = () => {
 
                   <a
                     href="#"
-                    className=" bg-white md:ml-7 lg:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     About
                   </a>    
