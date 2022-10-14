@@ -1,21 +1,23 @@
-import { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { FaHistory } from '@react-icons/all-files/fa/FaHistory'
-import { FaBlogger } from '@react-icons/all-files/fa/FaBlogger'
-import { GiTeamDowngrade } from '@react-icons/all-files/gi/GiTeamDowngrade'
+import { Fragment } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { FaHistory } from "@react-icons/all-files/fa/FaHistory";
+import { FaBlogger } from "@react-icons/all-files/fa/FaBlogger";
+import { GiTeamDowngrade } from "@react-icons/all-files/gi/GiTeamDowngrade";
+import { GiTvRemote } from "@react-icons/all-files/gi/GiTvRemote";
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
-
 
 export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="inline-flex w-full bg-white md:ml-6 py-2 text-base font-Poppins font-medium text-gray-600">
-            Company
+          <div className="flex">
+            <GiTvRemote className="md:hidden sm:block mt-1 mr-2 text-remoteBlue" size={18} /> Company
+          </div>
           <ChevronDownIcon className="ml-1 mt-1 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
       </div>
@@ -36,11 +38,12 @@ export default function Example() {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'flex px-4 py-2 text-base font-Poppins font-medium'
+                    active ? "bg-gray-100 text-gray-900" : "text-gray-600",
+                    "flex px-4 sm:py-4  py-2 text-base font-Poppins font-medium"
                   )}
                 >
-                  <FaHistory className='mt-1 mr-1 text-remoteLightBrown' />History
+                  <FaHistory className="mt-1 mr-1 text-remoteLightBrown" />
+                  History
                 </a>
               )}
             </Menu.Item>
@@ -49,11 +52,12 @@ export default function Example() {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-600',
-                    'flex px-4 py-2 text-base font-Poppins font-medium'
+                    active ? "bg-gray-100 text-gray-900" : "text-gray-600",
+                    "flex px-4 sm:py-4  py-2 text-base font-Poppins font-medium"
                   )}
                 >
-                  <GiTeamDowngrade className='mt-1 mr-1 text-remoteBlue' />Our Team
+                  <GiTeamDowngrade className="mt-1 mr-1 text-remoteBlue" />
+                  Our Team
                 </a>
               )}
             </Menu.Item>
@@ -62,11 +66,14 @@ export default function Example() {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-600 hover:text-gray-800',
-                    'flex px-4 py-2 text-base font-Poppins font-medium'
+                    active
+                      ? "bg-gray-100 text-gray-900"
+                      : "text-gray-600 hover:text-gray-800",
+                    "flex px-4 sm:py-4  py-2 text-base font-Poppins font-medium"
                   )}
                 >
-                  <FaBlogger className='mt-1 mr-1 text-remoteOrange'/>Blog
+                  <FaBlogger className="mt-1 mr-1 text-remoteOrange" />
+                  Blog
                 </a>
               )}
             </Menu.Item>
@@ -74,5 +81,5 @@ export default function Example() {
         </Menu.Items>
       </Transition>
     </Menu>
-  )
+  );
 }
