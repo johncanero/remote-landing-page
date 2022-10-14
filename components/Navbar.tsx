@@ -54,7 +54,7 @@ const Navbar = () => {
                   <CompanyDropdown />
                   <a
                     href="#"
-                    className=" bg-white md:ml-7 lg:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:ml-6  py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     Careers
                   </a>
