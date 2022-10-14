@@ -35,7 +35,7 @@ const Navbar = () => {
                   </Disclosure.Button>
                 </div>
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                  <div className="flex flex-shrink-0 h-8 w-44  items-center">
+                  <div className="flex flex-shrink-0 h-8 md:w-32 lg:w-44 items-center">
                     {/* Image */}
                     <Link href="/" passHref>
                       <Image
@@ -51,14 +51,14 @@ const Navbar = () => {
                   <CompanyDropdown />
                   <a
                     href="#"
-                    className=" bg-white ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:ml-7 lg:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     Careers
                   </a>
 
                   <a
                     href="#"
-                    className=" bg-white ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:ml-7 lg:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     About
                   </a>    
@@ -69,14 +69,14 @@ const Navbar = () => {
                   {/* Bell Button */}
                   <a
                     href="#"
-                    className=" bg-white mr-2 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:mr-8 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     Login
                   </a>
                   {/* Profile dropdown */}
-                  <Menu as="div" className="relative ml-3">
+                  <Menu as="div" className="relative">
                     <div>
-                      <Menu.Button className="bg-white text-gray-600 hover:text-gray-800 font-Poppins font-medium py-1 px-4 border border-gray-500 rounded-xl shadow">
+                      <Menu.Button className="bg-white text-gray-600 hover:text-gray-800 font-Poppins font-medium md: lg:py-1 lg:px-4 lg:border lg:border-gray-500 lg:rounded-xl lg:shadow md:mr-4">
                         <span className="sr-only">Open user menu</span>
                       Register
                       </Menu.Button>
