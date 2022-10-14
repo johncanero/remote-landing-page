@@ -48,7 +48,7 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
-                    "flex px-4 text-base font-Poppins font-medium"
+                    "flex px-4 py-2 text-base font-Poppins font-medium"
                   )}
                 >
                   <CompanyDropdown />
@@ -64,10 +64,27 @@ export default function Example() {
                     "flex px-4 py-2 mt-1 text-base font-Poppins font-medium"
                   )}
                 >
-
+                    Careers
+                </a>
+              )}
+            </Menu.Item><Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? "bg-gray-100 text-gray-900" : "text-gray-600",
+                    "flex px-4 py-4 mt-1 text-base font-Poppins font-medium"
+                  )}
+                >
+                    About
                 </a>
               )}
             </Menu.Item>
+
+
+
+
+
             <form method="POST" action="#">
               <Menu.Item>
                 {({ active }) => (
@@ -75,7 +92,7 @@ export default function Example() {
                     type="submit"
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-600",
-                      "flex w-full px-4 py-2 text-left text-base font-Poppins font-medium"
+                      "flex w-full px-4 py-4 text-left text-base font-Poppins font-medium"
                     )}
                   ></button>
                 )}
