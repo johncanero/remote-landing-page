@@ -1,13 +1,11 @@
 import React from "react";
-import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-
 import Link from "next/link";
 import Image from "next/image";
-import FeaturesDropdown from "./FeaturesDropdown";
-import CompanyDropdown from "./Company Dropdown";
 import RemoteLogo from "../public/images/remoteLogo.png";
+import FeaturesDropdown from "./FeaturesDropdown";
+import CompanyDropdown from "./CompanyDropdown";
+import MobileDropdown from "./MobileDropdown";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -31,6 +29,7 @@ const Navbar = () => {
                     />
                   </Link>
                 </div>
+                <MobileDropdown />
               </div>
             </div>
 
