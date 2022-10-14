@@ -54,7 +54,7 @@ const Navbar = () => {
                   <CompanyDropdown />
                   <a
                     href="#"
-                    className=" bg-white md:ml-6  py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     Careers
                   </a>
@@ -71,14 +71,14 @@ const Navbar = () => {
                   {/* Bell Button */}
                   <a
                     href="#"
-                    className=" bg-white md:ml-2 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className=" bg-white md:mr-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
                   >
                     Login
                   </a>
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">
                     <div>
-                      <Menu.Button className="bg-white text-gray-600 hover:text-gray-800 font-Poppins font-medium md: py-1 md:px-2 lg:px-4 border border-gray-500 rounded-xl shadow md:ml-6">
+                      <Menu.Button className="bg-white text-gray-600 hover:text-gray-800 font-Poppins font-medium md: py-1 md:px-2 lg:px-4 border border-gray-500 rounded-xl shadow md:mr-2">
                         <span className="sr-only">Open user menu</span>
                         Register
                       </Menu.Button>
