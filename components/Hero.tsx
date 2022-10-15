@@ -17,7 +17,9 @@ const Hero = () => {
             processes, create team rituals, and watch productivity soar.
           </p>
           {/* Button */}
-
+          <button className=" bg-gray-800 text-white font-semibold hover:bg-remoteOrange hover:text-gray-800 py-2 px-4 hover:border-transparent rounded md:mt-14">
+            Learn more
+          </button>
           {/* Companies */}
         </div>
 
