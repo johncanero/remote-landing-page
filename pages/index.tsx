@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import NavbarDropdown from "../components/FeaturesDropdown";
+import Hero from "../components/Hero";
 
 
 const Home: NextPage = () => {
@@ -22,6 +22,7 @@ const Home: NextPage = () => {
 
       <main>
         <Navbar />
+        <Hero />
       </main>
 
       <footer></footer>
