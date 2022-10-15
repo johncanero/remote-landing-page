@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
             {/* Tablet and Desktop */}
-            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 lg:px-8 shadow-md">
+            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 md:px-8 lg:pl-12 shadow-md">
               <div className="relative flex h-20 items-center justify-between">
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 h-8 md:w-32 lg:w-44 items-center">
