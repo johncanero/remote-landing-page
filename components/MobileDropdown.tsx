@@ -102,26 +102,23 @@ export default function Example() {
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
-                    "flex px-4 py-4 mt-1 text-base font-Poppins font-medium"
+                    "flex justify-center px-4 py-4 mt-1 text-base font-Poppins font-medium"
                   )}
                 >
-                 Login
+                  Login
                 </a>
               )}
             </Menu.Item>
 
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? "bg-gray-100 text-gray-900" : "text-gray-600",
-                    "flex px-4 py-4 mt-1 text-base font-Poppins font-medium"
-                  )}
-                >
-                 Register
-                </a>
-              )}
+          
+
+            <Menu.Item as="div" className="relative">
+              <div>
+                <Menu.Button className="flex justify-center bg-white hover:bg-gray-50 text-gray-600 hover:text-gray-800  font-Poppins font-medium border-2 border-gray-500 rounded-xl mx-auto w-36  px-2 py-2 mt-1 text-base">
+                  <span className="sr-only">Open user menu</span>
+                  Register
+                </Menu.Button>
+              </div>
             </Menu.Item>
 
             <form method="POST" action="#">
@@ -131,7 +128,7 @@ export default function Example() {
                     type="submit"
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-600",
-                      "flex w-full px-4 py-4 text-left text-base font-Poppins font-medium"
+                      "flex w-full px-4 py-4 text-left text-base font-Poppins"
                     )}
                   ></button>
                 )}
