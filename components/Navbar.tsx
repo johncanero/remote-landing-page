@@ -19,7 +19,7 @@ const Navbar = () => {
         {({ open }) => (
           <div>
             {/* Mobile */}
-            <div className="md:hidden sm:block mx-auto px-2 sm:px-6 lg:px-8 shadow-md">
+            <div className="md:hidden sm:block mx-auto px-2 sm:px-6 lg:px-8 shadow-sm">
               <div className="relative flex h-16 items-center justify-between">
                 <div className="flex flex-shrink-0 w-36 items-center">
                   <Link href="/" passHref>
@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
             {/* Tablet and Desktop */}
-            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 md:px-8 lg:pl-12 shadow-md">
+            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 md:px-8 lg:pl-24 shadow-sm flex justify-center">
               <div className="relative flex h-20 items-center justify-between">
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 h-8 md:w-32 lg:w-44 items-center">
@@ -78,7 +78,7 @@ const Navbar = () => {
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">
                     <div>
-                      <Menu.Button className="bg-white hover:bg-gray-50 text-gray-600 hover:text-gray-800  font-Poppins font-medium md: py-1 md:px-2 lg:px-4 border-2 border-gray-500 rounded-xl">
+                      <Menu.Button className="bg-gray-800 text-white font-semibold hover:bg-remoteOrange hover:text-gray-800 font-Poppins md:py-1 md:px-2 lg:px-4 border-2 rounded-xl">
                         <span className="sr-only">Open user menu</span>
                         Register
                       </Menu.Button>
