@@ -1,12 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import HeroImage from "../public/images/heroImage.png";
+import AudioPhile from "../public/images/client-audiophile.svg";
+import DataBiz from "../public/images/client-databiz.svg";
+import Meet from "../public/images/client-meet.svg";
+import Maker from "../public/images/client-maker.svg";
+
 
 const Hero = () => {
   return (
     <div>
       <div className="lg:flex lg:justify-center lg:mx-auto font-Poppins">
-
         {/* Mobile and Tablet */}
         <div className="lg:hidden sm:mt-2 md:flex md:justify-center">
           <div>
@@ -35,6 +39,16 @@ const Hero = () => {
           <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-gray-800 hover:text-white py-2 px-4 hover:border-transparent rounded-xl mt-8  md:mt-12">
             Learn more
           </button>
+
+          {/* Clients */}
+          <div>
+            <div className=" lg:mt-14 flex">
+              <div className="mr-5 w-28"><Image className="" src={DataBiz} alt="DataBiz Feature" /></div>
+              <div className="mx-10 w-24"><Image className="" src={AudioPhile} alt="AudioPhile Feature" /></div>
+              <div className="mx-10 w-24"><Image className="" src={Meet} alt="Meet Feature" /></div>
+              <div className="mx-10 w-24"><Image className="" src={Maker} alt="Maker Feature" /></div>
+            </div>
+          </div>
         </div>
 
         {/* Desktop */}
@@ -42,7 +56,7 @@ const Hero = () => {
           <div className="">
             <Image
               width={1700}
-              height={1320}
+              height={1345}
               className="block"
               src={HeroImage}
               alt="Hero Feature"
