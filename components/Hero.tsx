@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="lg:flex lg:justify-center lg:mx-auto font-Poppins">
 
         {/* Mobile and Tablet */}
-        <div className="lg:hidden md:flex md:justify-center">
+        <div className="lg:hidden sm:mt-2 md:flex md:justify-center">
           <div>
             <Image
               width={690}
