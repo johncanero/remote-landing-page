@@ -24,8 +24,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className=" sm:mx-8 md:mx-20 lg:mx-20">
-          <h1 className="font-semibold text-5xl md:mt-4 md:text-7xl lg:text-8xl lg:mt-32 ">
+        <div className=" sm:mx-8 md:mx-20 lg:mx-24">
+          <h1 className="font-semibold text-5xl md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
             Make remote work<span className="text-remoteOrange">.</span>
             <span className="text-remoteBlue">.</span>
             <span className="text-remoteLightBrown">.</span>
@@ -36,27 +36,27 @@ const Hero = () => {
             processes, create team rituals, and watch productivity soar.
           </p>
 
-          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-gray-800 hover:text-white py-2 px-4 hover:border-transparent rounded-xl mt-8  md:mt-12">
+          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-gray-800 hover:text-white py-2 px-4 hover:border-transparent rounded-xl mt-8 md:mt-12">
             Learn more
           </button>
 
           {/* Clients */}
           <div>
-            <div className=" lg:mt-14 flex">
-              <div className="mr-5 w-28"><Image className="" src={DataBiz} alt="DataBiz Feature" /></div>
-              <div className="mx-10 w-24"><Image className="" src={AudioPhile} alt="AudioPhile Feature" /></div>
-              <div className="mx-10 w-24"><Image className="" src={Meet} alt="Meet Feature" /></div>
-              <div className="mx-10 w-24"><Image className="" src={Maker} alt="Maker Feature" /></div>
+            <div className="flex md:justify-center md:mt-16 lg:mt-14">
+              <div className="mr-5 w-28 md:mb-10"><Image className="" src={DataBiz} alt="DataBiz Feature" /></div>
+              <div className="mx-10 w-24 md:mb-10"><Image className="" src={AudioPhile} alt="AudioPhile Feature" /></div>
+              <div className="mx-10 w-24 md:mb-10"><Image className="" src={Meet} alt="Meet Feature" /></div>
+              <div className="mx-10 w-24 md:mb-10"><Image className="" src={Maker} alt="Maker Feature" /></div>
             </div>
           </div>
         </div>
 
         {/* Desktop */}
-        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-14 lg:mt-10">
+        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-14 lg:mt-12">
           <div className="">
             <Image
-              width={1700}
-              height={1345}
+              width={1750}
+              height={1370}
               className="block"
               src={HeroImage}
               alt="Hero Feature"
