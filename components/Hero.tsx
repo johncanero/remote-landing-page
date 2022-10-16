@@ -40,9 +40,9 @@ const Hero = () => {
             Learn more
           </button>
 
-          {/* Clients */}
+          {/* Tablet and Desktop: Clients */}
           <div>
-            <div className="flex md:justify-center md:mt-16 lg:mt-14">
+            <div className="hidden md:flex md:justify-center md:mt-16 lg:mt-14">
               <div className="mr-5 w-28 md:mb-10"><Image className="" src={DataBiz} alt="DataBiz Feature" /></div>
               <div className="mx-10 w-24 md:mb-10"><Image className="" src={AudioPhile} alt="AudioPhile Feature" /></div>
               <div className="mx-10 w-24 md:mb-10"><Image className="" src={Meet} alt="Meet Feature" /></div>
