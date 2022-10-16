@@ -40,7 +40,7 @@ const Hero = () => {
           </button>
 
           {/* Mobile */}
-          <div className="flex">
+          <div className="flex md:hidden">
             <div className="m-auto mt-12">
               <div className="flex">
                 <div className="w-28 mx-6">
