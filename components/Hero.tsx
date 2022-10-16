@@ -6,7 +6,6 @@ import DataBiz from "../public/images/client-databiz.svg";
 import Meet from "../public/images/client-meet.svg";
 import Maker from "../public/images/client-maker.svg";
 
-
 const Hero = () => {
   return (
     <div>
@@ -40,13 +39,44 @@ const Hero = () => {
             Learn more
           </button>
 
+          {/* Mobile */}
+          <div className="flex">
+            <div className="m-auto mt-12">
+              <div className="flex">
+                <div className="w-28 mx-6">
+                  <Image src={DataBiz} alt="DataBiz Feature" />
+                </div>
+                <div className="w-24 mx-6">
+                  <Image src={AudioPhile} alt="AudioPhile Feature" />
+                </div>
+              </div>
+
+              <div className="flex">
+                <div className="w-24 mx-6 mt-4">
+                  <Image className="" src={Meet} alt="Meet Feature" />
+                </div>
+                <div className="w-24 mx-6 mt-4">
+                  <Image className="" src={Maker} alt="Maker Feature" />
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Tablet and Desktop: Clients */}
           <div>
             <div className="hidden md:flex md:justify-center md:mt-16 lg:mt-14">
-              <div className="mr-5 w-28 md:mb-10"><Image className="" src={DataBiz} alt="DataBiz Feature" /></div>
-              <div className="mx-10 w-24 md:mb-10"><Image className="" src={AudioPhile} alt="AudioPhile Feature" /></div>
-              <div className="mx-10 w-24 md:mb-10"><Image className="" src={Meet} alt="Meet Feature" /></div>
-              <div className="mx-10 w-24 md:mb-10"><Image className="" src={Maker} alt="Maker Feature" /></div>
+              <div className="mr-5 w-28 md:mb-10">
+                <Image className="" src={DataBiz} alt="DataBiz Feature" />
+              </div>
+              <div className="mx-10 w-24 md:mb-10">
+                <Image className="" src={AudioPhile} alt="AudioPhile Feature" />
+              </div>
+              <div className="mx-10 w-24 md:mb-10">
+                <Image className="" src={Meet} alt="Meet Feature" />
+              </div>
+              <div className="mx-10 w-24 md:mb-10">
+                <Image className="" src={Maker} alt="Maker Feature" />
+              </div>
             </div>
           </div>
         </div>
