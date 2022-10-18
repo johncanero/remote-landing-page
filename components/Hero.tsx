@@ -41,7 +41,7 @@ const Hero = () => {
 
           {/* Mobile */}
           <div className="flex md:hidden">
-            <div className="m-auto mt-12 mb-8">
+            <div className="m-auto mt-12 mb-36">
               <div className="flex">
                 <div className="w-28 mx-6">
                   <Image src={DataBiz} alt="DataBiz Feature" />
