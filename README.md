@@ -19,7 +19,7 @@
 
 This is the Remote Landing Page made by Next Js, Typescript and Tailwind CSS.
 
-A Hero Section Feature: A Modified Challenge from Frontend Mentor. 
+A Hero Section Feature: A Modified Challenge from Frontend Mentor.
 
 </div>
 
