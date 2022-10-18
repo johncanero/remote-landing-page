@@ -41,7 +41,7 @@ const Hero = () => {
 
           {/* Mobile */}
           <div className="flex md:hidden">
-            <div className="m-auto mt-12">
+            <div className="m-auto mt-12 mb-8">
               <div className="flex">
                 <div className="w-28 mx-6">
                   <Image src={DataBiz} alt="DataBiz Feature" />
@@ -64,7 +64,7 @@ const Hero = () => {
 
           {/* Tablet and Desktop: Clients */}
           <div>
-            <div className="hidden md:flex md:justify-center md:mt-16 lg:mt-14">
+            <div className="hidden md:flex md:justify-center md:mt-16 md:mb-12 lg:mt-14">
               <div className="mr-5 w-28 md:mb-10">
                 <Image className="" src={DataBiz} alt="DataBiz Feature" />
               </div>
@@ -85,7 +85,7 @@ const Hero = () => {
         <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-14 lg:mt-12">
           <div className="">
             <Image
-              width={1750}
+              width={1770}
               height={1370}
               className="block"
               src={HeroImage}
