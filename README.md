@@ -35,6 +35,6 @@ A Hero Section Feature: A Modified Challenge from Frontend Mentor.
 
 ![Desktop View - Remote Landing Page](./public/images/responsive/desktopView.png)
 ![Tablet View - Remote Landing Page](./public/images/responsive/tabletView.png)
-![Mobile View - Remote Landing Page](./public/images/responsive/mobileView.png)
+![Mobile View - Remote Landing Page](./public/images/responsive/mobileView1.png)
 ![Mobile View - Remote Landing Page](./public/images/responsive/mobileView2.png)
 ![Code View - Remote Landing Page](./public/images/responsive/codeView.png)
