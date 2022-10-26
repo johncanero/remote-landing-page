@@ -78,7 +78,7 @@ const Navbar = () => {
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">
                     <div>
-                      <Menu.Button className="bg-gray-800 text-white font-semibold hover:bg-remoteOrange hover:text-gray-800 font-Poppins md:py-1 md:px-2 lg:px-4 border-2 rounded-xl">
+                      <Menu.Button className="bg-zinc-900 text-white font-semibold hover:bg-remoteOrange hover:text-zinc-900 font-Poppins md:py-1 md:px-2 lg:px-4 border-2 rounded-xl">
                         <span className="sr-only">Open user menu</span>
                         Register
                       </Menu.Button>

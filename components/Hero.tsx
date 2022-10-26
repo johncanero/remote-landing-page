@@ -30,12 +30,13 @@ const Hero = () => {
             <span className="text-remoteLightBrown">.</span>
           </h1>
 
-          <p className="font-medium text-gray-500 text-lg mt-8 md:mr-56 md:mt-14 lg:mt-14 ">
+          <p className="font-medium text-gray-500 text-lg mt-8 md:mr-56 md:mt-11 lg:mt-14 ">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
 
-          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-gray-800 hover:text-white py-2 px-4 hover:border-transparent rounded-xl mt-8 md:mt-12">
+          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-zinc-900 hover:text-white py-2 
+          flex mx-auto px-28 md:px-4 md:mx-0 hover:border-transparent rounded-xl mt-8 md:mt-12">
             Learn more
           </button>
 
