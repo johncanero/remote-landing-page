@@ -35,8 +35,8 @@ const Hero = () => {
             processes, create team rituals, and watch productivity soar.
           </p>
 
-          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-zinc-900 hover:text-white py-2 
-          flex mx-auto px-28 md:px-4 md:mx-0 hover:border-transparent rounded-xl mt-8 md:mt-12">
+          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-zinc-900 hover:text-white py-3 
+          flex mx-auto px-28 md:px-6 md:mx-0 hover:border-transparent rounded-xl mt-8 md:mt-12">
             Learn more
           </button>
 
