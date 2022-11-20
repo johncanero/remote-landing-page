@@ -49,7 +49,7 @@ const Navbar = () => {
     } else {
       return (
         <button
-          className=" text-gray-900 rounded-lg p-2"
+          className=" text-gray-900 dark:text-gray-200 rounded-lg p-2"
           onClick={() => setTheme("light")}
         >
           {/* Sun */}
@@ -95,14 +95,14 @@ const Navbar = () => {
             </div>
 
             {/* Tablet and Desktop */}
-            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 md:px-8 lg:pl-12 shadow-sm flex justify-center">
+            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 md:px-8 lg:pl-12 shadow-sm flex justify-center dark:bg-black">
               <div className="relative flex h-20 items-center justify-between">
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 h-8 md:w-32 lg:w-44 items-center">
                     {/* Image */}
                     <Link href="/" passHref>
                       <Image
-                        className="block h-8 w-3 bg-white lg:hidden rounded-xl px-4 pb-3"
+                        className="block h-8 w-3 px-4 pb-3"
                         src={RemoteLogo}
                         alt="Your Company"
                       />
