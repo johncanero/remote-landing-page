@@ -14,7 +14,7 @@ export default function Example() {
   return (
     <Menu as="div" className=" relative inline-block">
       <div>
-        <Menu.Button className="inline-flex w-full bg-white  py-2 text-base font-Poppins font-medium text-gray-600 hover:text-gray-800">
+        <Menu.Button className="inline-flex w-full py-2 text-base font-Poppins font-medium text-gray-600 hover:text-gray-800">
           <GoThreeBars className=" h-11 w-5" />
         </Menu.Button>
       </div>
