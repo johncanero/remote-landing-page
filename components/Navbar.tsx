@@ -29,11 +29,11 @@ const Navbar = () => {
 
     const currentTheme = theme === "system" ? systemTheme : theme;
 
-    if (currentTheme === "light") {
+    if (currentTheme === "dark") {
       return (
         <button
           className=" text-gray-900 rounded-lg p-2"
-          onClick={() => setTheme("dark")}
+          onClick={() => setTheme("light")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Navbar = () => {
       return (
         <button
           className=" text-gray-900 rounded-lg p-2"
-          onClick={() => setTheme("light")}
+          onClick={() => setTheme("dark")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
