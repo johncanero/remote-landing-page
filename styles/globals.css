@@ -5,7 +5,7 @@
 /* Layer Base */
 @layer base {
     body {
-        @apply dark:bg-zinc-900 dark:text-gray-100 bg-gray-100 text-gray-900
+        @apply dark:bg-zinc-900 dark:text-zinc-100 bg-zinc-50 text-zinc-900
     }
 
     .highlight:before {
