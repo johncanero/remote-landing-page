@@ -24,19 +24,18 @@ const Hero = () => {
         </div>
 
         <div className=" sm:mx-8 md:mx-20 lg:mx-24">
-          <h1 className="font-semibold text-5xl md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
+          <h1 className="text-5xl font-semibold md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
             Make remote work<span className="text-remoteOrange">.</span>
             <span className="text-remoteBlue">.</span>
             <span className="text-remoteLightBrown">.</span>
           </h1>
 
-          <p className="font-medium text-gray-500 text-lg mt-8 md:mr-56 md:mt-11 lg:mt-14 ">
+          <p className="mt-8 text-lg font-medium text-gray-500 md:mr-56 md:mt-11 lg:mt-14 ">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
 
-          <button className=" bg-remoteOrange text-gray-800 font-semibold hover:bg-zinc-900 hover:text-white py-3 
-          flex mx-auto px-28 md:px-6 md:mx-0 hover:border-transparent rounded-xl mt-8 md:mt-12">
+          <button className="flex py-3 mx-auto mt-8 font-semibold text-gray-800 bg-remoteOrange hover:bg-zinc-900 dark:hover:bg-zinc-800 hover:text-white px-28 md:px-6 md:mx-0 hover:border-transparent rounded-xl md:mt-12">
             Learn more
           </button>
 
@@ -44,7 +43,7 @@ const Hero = () => {
           <div className="flex md:hidden">
             <div className="m-auto mt-12 mb-28">
               <div className="flex">
-                <div className="w-28 mx-6">
+                <div className="mx-6 w-28">
                   <Image src={DataBiz} alt="DataBiz Feature" />
                 </div>
                 <div className="w-24 mx-6">
@@ -69,13 +68,13 @@ const Hero = () => {
               <div className="mr-5 w-28 md:mb-10">
                 <Image className="" src={DataBiz} alt="DataBiz Feature" />
               </div>
-              <div className="mx-10 w-24 md:mb-10">
+              <div className="w-24 mx-10 md:mb-10">
                 <Image className="" src={AudioPhile} alt="AudioPhile Feature" />
               </div>
-              <div className="mx-10 w-24 md:mb-10">
+              <div className="w-24 mx-10 md:mb-10">
                 <Image className="" src={Meet} alt="Meet Feature" />
               </div>
-              <div className="mx-10 w-24 md:mb-10">
+              <div className="w-24 mx-10 md:mb-10">
                 <Image className="" src={Maker} alt="Maker Feature" />
               </div>
             </div>
