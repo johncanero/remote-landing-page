@@ -16,7 +16,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full py-2 text-base font-medium md:ml-6 font-Poppins text-zinc-600 hover:text-gray-800">
+        <Menu.Button className="inline-flex w-full py-2 text-base font-medium md:ml-6 font-Poppins text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300">
           <div className="flex">
             <GiFastArrow className="mt-1 mr-2 md:hidden sm:block text-remoteOrange" size={18} /> Features
           </div>

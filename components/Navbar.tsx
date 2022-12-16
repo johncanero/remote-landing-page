@@ -114,14 +114,14 @@ const Navbar = () => {
                   <CompanyDropdown />
                   <a
                     href="#"
-                    className="py-2 text-base font-medium text-zinc-600 md:ml-6 hover:text-gray-800 font-Poppins"
+                    className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     Careers
                   </a>
 
                   <a
                     href="#"
-                    className="py-2 text-base font-medium text-zinc-600 md:ml-6 hover:text-gray-800 font-Poppins"
+                    className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     About
                   </a>
@@ -131,7 +131,7 @@ const Navbar = () => {
                   {/* Bell Button */}
                   <a
                     href="#"
-                    className="py-2 text-base font-medium text-zinc-600 md:mr-6 hover:text-gray-800 font-Poppins"
+                    className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     Login
                   </a>
