@@ -14,11 +14,11 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full  md:ml-6 py-2 text-base font-Poppins font-medium text-gray-600">
+        <Menu.Button className="inline-flex w-full py-2 text-base font-medium md:ml-6 font-Poppins text-zinc-600">
           <div className="flex">
-            <GiTvRemote className="md:hidden sm:block mt-1 mr-2 text-remoteBlue" size={18} /> Company
+            <GiTvRemote className="mt-1 mr-2 md:hidden sm:block text-remoteBlue" size={18} /> Company
           </div>
-          <ChevronDownIcon className="ml-1 mt-1 h-5 w-5" aria-hidden="true" />
+          <ChevronDownIcon className="w-5 h-5 mt-1 ml-1" aria-hidden="true" />
         </Menu.Button>
       </div>
 
@@ -31,7 +31,7 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute z-10 mt-2 sm:w-44 sm:h-64 md:h-44 md:w-36 md:ml-5  rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute z-10 mt-2 bg-white rounded-md shadow-lg sm:w-44 sm:h-64 md:h-44 md:w-36 md:ml-5 ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (

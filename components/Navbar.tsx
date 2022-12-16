@@ -32,13 +32,13 @@ const Navbar = () => {
     if (currentTheme === "light") {
       return (
         <button
-          className=" text-gray-900 rounded-lg p-2"
+          className="p-2 text-gray-900 rounded-lg "
           onClick={() => setTheme("dark")}
         >
           {/* Moon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
+            className="w-6 h-6"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -49,13 +49,13 @@ const Navbar = () => {
     } else {
       return (
         <button
-          className=" text-gray-900 dark:text-gray-200 rounded-lg p-2"
+          className="p-2 text-gray-900 rounded-lg dark:text-gray-200"
           onClick={() => setTheme("light")}
         >
           {/* Sun */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
+            className="w-6 h-6"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -76,9 +76,9 @@ const Navbar = () => {
         {({ open }) => (
           <div>
             {/* Mobile */}
-            <div className="md:hidden sm:block mx-auto px-2 sm:px-6 lg:px-8 shadow-sm dark:bg-black">
-              <div className="relative flex h-16 items-center justify-between">
-                <div className="flex flex-shrink-0 w-36 items-center">
+            <div className="px-2 mx-auto shadow-sm md:hidden sm:block sm:px-6 lg:px-8 dark:bg-zinc-900">
+              <div className="relative flex items-center justify-between h-16">
+                <div className="flex items-center flex-shrink-0 w-36">
                   <Link href="/" passHref>
                     <Image
                       className="block lg:hidden"
@@ -95,14 +95,14 @@ const Navbar = () => {
             </div>
 
             {/* Tablet and Desktop */}
-            <div className="sm:hidden md:block sm:px-6 mx-auto px-2 md:px-8 lg:pl-12 shadow-sm flex justify-center dark:bg-black">
-              <div className="relative flex h-20 items-center justify-between">
-                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                  <div className="flex flex-shrink-0 h-8 md:w-32 lg:w-44 items-center">
+            <div className="flex justify-center px-2 mx-auto shadow-sm sm:hidden md:block sm:px-6 md:px-8 lg:pl-12 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
+              <div className="relative flex items-center justify-between h-20">
+                <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
+                  <div className="flex items-center flex-shrink-0 h-8 md:w-32 lg:w-44">
                     {/* Image */}
                     <Link href="/" passHref>
                       <Image
-                        className="block h-8 w-3 px-4 pb-3"
+                        className="block w-3 h-8 px-4 pb-3"
                         src={RemoteLogo}
                         alt="Your Company"
                       />
@@ -114,14 +114,14 @@ const Navbar = () => {
                   <CompanyDropdown />
                   <a
                     href="#"
-                    className="  md:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className="py-2 text-base font-medium text-zinc-600 md:ml-6 hover:text-gray-800 font-Poppins"
                   >
                     Careers
                   </a>
 
                   <a
                     href="#"
-                    className="  md:ml-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className="py-2 text-base font-medium text-zinc-600 md:ml-6 hover:text-gray-800 font-Poppins"
                   >
                     About
                   </a>
@@ -131,14 +131,14 @@ const Navbar = () => {
                   {/* Bell Button */}
                   <a
                     href="#"
-                    className="  md:mr-6 py-2 text-base font-medium text-gray-600 hover:text-gray-800 font-Poppins"
+                    className="py-2 text-base font-medium text-zinc-600 md:mr-6 hover:text-gray-800 font-Poppins"
                   >
                     Login
                   </a>
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">
                     <div>
-                      <Menu.Button className="bg-zinc-900 text-white font-semibold hover:bg-remoteOrange hover:text-zinc-900 font-Poppins md:py-1 md:px-2 lg:px-4 border-2 rounded-xl">
+                      <Menu.Button className="font-semibold text-white border-2 bg-zinc-900 hover:bg-remoteOrange hover:text-zinc-900 font-Poppins md:py-1 md:px-2 lg:px-4 rounded-xl">
                         <span className="sr-only">Open user menu</span>
                         Register
                       </Menu.Button>
