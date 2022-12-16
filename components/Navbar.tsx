@@ -32,7 +32,7 @@ const Navbar = () => {
     if (currentTheme === "light") {
       return (
         <button
-          className="p-2 text-gray-900 rounded-lg "
+          className="p-2 rounded-lg text-zinc-900 dark:text-zinc-200 "
           onClick={() => setTheme("dark")}
         >
           {/* Moon */}
@@ -49,7 +49,7 @@ const Navbar = () => {
     } else {
       return (
         <button
-          className="p-2 text-gray-900 rounded-lg dark:text-gray-200"
+          className="p-2 rounded-lg text-zinc-900 dark:text-zinc-200"
           onClick={() => setTheme("light")}
         >
           {/* Sun */}
