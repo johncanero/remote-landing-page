@@ -12,10 +12,10 @@ function classNames(...classes: string[]) {
 
 export default function Example() {
   return (
-    <Menu as="div" className=" relative inline-block">
+    <Menu as="div" className="relative inline-block ">
       <div>
-        <Menu.Button className="inline-flex w-full py-2 text-base font-Poppins font-medium text-gray-600 hover:text-gray-800">
-          <GoThreeBars className=" h-11 w-5" />
+        <Menu.Button className="inline-flex w-full py-2 text-base font-medium font-Poppins text-neutral-800 dark:text-neutral-200">
+          <GoThreeBars className="w-5 h-10" />
         </Menu.Button>
       </div>
 
@@ -29,7 +29,7 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="mt-96 z-10 relative w-48 h-96 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="relative z-10 w-48 bg-white rounded-lg shadow-lg mt-96 h-96 ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
@@ -68,7 +68,7 @@ export default function Example() {
                 >
                   <div className="flex">
                     <MdNaturePeople
-                      className="md:hidden sm:block mt-1 mr-2 text-remoteLightBrown"
+                      className="mt-1 mr-2 md:hidden sm:block text-remoteLightBrown"
                       size={18}
                     />
                     Careers
@@ -87,7 +87,7 @@ export default function Example() {
                 >
                   <div className="flex">
                     <FcAbout
-                      className="md:hidden sm:block mt-1 mr-2"
+                      className="mt-1 mr-2 md:hidden sm:block"
                       size={18}
                     />
                     About
@@ -114,7 +114,7 @@ export default function Example() {
 
             <Menu.Item as="div" className="relative">
               <div>
-                <Menu.Button className="flex justify-center bg-white hover:bg-gray-50 text-gray-600 hover:text-gray-800  font-Poppins font-medium border-2 border-gray-500 rounded-xl mx-auto w-36  px-2 py-2 mt-1 text-base">
+                <Menu.Button className="flex justify-center px-2 py-2 mx-auto mt-1 text-base font-medium text-gray-600 bg-white border-2 border-gray-500 hover:bg-gray-50 hover:text-gray-800 font-Poppins rounded-xl w-36">
                   <span className="sr-only">Open user menu</span>
                   Register
                 </Menu.Button>

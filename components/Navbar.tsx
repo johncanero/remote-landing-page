@@ -88,7 +88,7 @@ const Navbar = () => {
                   </Link>
                 </div>
                 <div className="flex">
-                  <div className="mt-3 mr-2">{renderThemeChanger()}</div>
+                  <div className="mt-2 mr-2">{renderThemeChanger()}</div>
                   <MobileDropdown />
                 </div>
               </div>
