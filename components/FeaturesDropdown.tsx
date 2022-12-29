@@ -42,42 +42,49 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/"
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 sm:py-4 py-2 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <FaClipboardList className="mt-1 mr-1 text-remoteOrange" />{" "}
-                  ToDo List
+                  )}>
+
+                    <FaClipboardList className="mt-1 mr-1 text-remoteOrange" />{" "}
+                    ToDo List
+                  </div>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/"
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 sm:py-4 py-2 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <FaCalendarAlt className="mt-1 mr-1 text-remoteBlue" />{" "}
-                  Calendars
+                  )}>
+                    <FaCalendarAlt className="mt-1 mr-1 text-remoteBlue" />{" "}
+                    Calendars
+                  </div>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/"
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 sm:py-4 py-2 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <FaClipboard className="mt-1 mr-1 text-remoteLightBrown" />{" "}
-                  Reminders
+                  )}>
+
+                    <FaClipboard className="mt-1 mr-1 text-remoteLightBrown" />{" "}
+                    Reminders
+                  </div>
                 </Link>
               )}
             </Menu.Item>

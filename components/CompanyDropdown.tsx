@@ -40,44 +40,53 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  rel="noopener noreferrer"
+                  href="/"
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 sm:py-4  py-2 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <FaHistory className="mt-1 mr-1 text-remoteLightBrown" />
-                  History
+                  )}>
+
+                    <FaHistory className="mt-1 mr-1 text-remoteLightBrown" />
+                    History
+                  </div>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/"
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 sm:py-4  py-2 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <GiTeamDowngrade className="mt-1 mr-1 text-remoteBlue" />
-                  Our Team
+                  )}>
+
+                    <GiTeamDowngrade className="mt-1 mr-1 text-remoteBlue" />
+                    Our Team
+                  </div>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/"
+                >
+                  <div className={classNames(
                     active
                       ? "bg-gray-100 text-gray-900"
                       : "text-gray-600 hover:text-gray-800",
                     "flex px-4 sm:py-4  py-2 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <FaBlogger className="mt-1 mr-1 text-remoteOrange" />
-                  Blog
+                  )}>
+
+                    <FaBlogger className="mt-1 mr-1 text-remoteOrange" />
+                    Blog
+                  </div>
                 </Link>
               )}
             </Menu.Item>

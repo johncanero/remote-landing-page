@@ -114,17 +114,23 @@ const Navbar = () => {
                   <FeaturesDropdown />
                   <CompanyDropdown />
                   <Link
+                    rel="noopener noreferrer"
                     href="/careers"
-                    className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
+
                   >
-                    Careers
+                    <div className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                      <h2>Careers</h2>
+                    </div>
+
                   </Link>
 
                   <Link
+                    rel="noopener noreferrer"
                     href="/about"
-                    className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
-                    About
+                    <div className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                      <h2>About</h2>
+                    </div>
                   </Link>
                 </div>
 
