@@ -41,7 +41,7 @@ export default function Example() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -50,12 +50,12 @@ export default function Example() {
                 >
                   <FaClipboardList className="mt-1 mr-1 text-remoteOrange" />{" "}
                   ToDo List
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -64,12 +64,12 @@ export default function Example() {
                 >
                   <FaCalendarAlt className="mt-1 mr-1 text-remoteBlue" />{" "}
                   Calendars
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -78,7 +78,7 @@ export default function Example() {
                 >
                   <FaClipboard className="mt-1 mr-1 text-remoteLightBrown" />{" "}
                   Reminders
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <form method="POST" action="#">

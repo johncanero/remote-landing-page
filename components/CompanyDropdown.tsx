@@ -39,7 +39,7 @@ export default function Example() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -48,12 +48,12 @@ export default function Example() {
                 >
                   <FaHistory className="mt-1 mr-1 text-remoteLightBrown" />
                   History
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -62,12 +62,12 @@ export default function Example() {
                 >
                   <GiTeamDowngrade className="mt-1 mr-1 text-remoteBlue" />
                   Our Team
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active
@@ -78,7 +78,7 @@ export default function Example() {
                 >
                   <FaBlogger className="mt-1 mr-1 text-remoteOrange" />
                   Blog
-                </a>
+                </Link>
               )}
             </Menu.Item>
           </div>
