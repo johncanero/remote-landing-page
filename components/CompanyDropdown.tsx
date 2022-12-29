@@ -5,6 +5,7 @@ import { FaHistory } from "@react-icons/all-files/fa/FaHistory";
 import { FaBlogger } from "@react-icons/all-files/fa/FaBlogger";
 import { GiTeamDowngrade } from "@react-icons/all-files/gi/GiTeamDowngrade";
 import { GiTvRemote } from "@react-icons/all-files/gi/GiTvRemote";
+import Link from "next/link";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -15,9 +16,12 @@ export default function Example() {
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="inline-flex w-full py-2 text-base font-medium md:ml-6 font-Poppins text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 ">
-          <div className="flex">
-            <GiTvRemote className="mt-1 mr-2 md:hidden sm:block text-remoteBlue" size={18} /> Company
-          </div>
+          <Link rel="noopener noreferrer" href="/company">
+
+            <div className="flex">
+              <GiTvRemote className="mt-1 mr-2 md:hidden sm:block text-remoteBlue" size={18} /> Company
+            </div>
+          </Link>
           <ChevronDownIcon className="w-5 h-5 mt-1 ml-1" aria-hidden="true" />
         </Menu.Button>
       </div>

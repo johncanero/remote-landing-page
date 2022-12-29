@@ -6,6 +6,7 @@ import { FaCalendarAlt } from "@react-icons/all-files/fa/FaCalendarAlt";
 import { FaClipboard } from "@react-icons/all-files/fa/FaClipboard";
 import { BsGearFill } from "@react-icons/all-files/bs/BsGearFill";
 import { GiFastArrow } from "@react-icons/all-files/gi/GiFastArrow";
+import Link from "next/link";
 
 
 function classNames(...classes: string[]) {
@@ -17,9 +18,12 @@ export default function Example() {
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="inline-flex w-full py-2 text-base font-medium md:ml-6 font-Poppins text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300">
-          <div className="flex">
-            <GiFastArrow className="mt-1 mr-2 md:hidden sm:block text-remoteOrange" size={18} /> Features
-          </div>
+          <Link rel="noopener noreferrer" href="/features"
+          >
+            <div className="flex">
+              <GiFastArrow className="mt-1 mr-2 md:hidden sm:block text-remoteOrange" size={18} /> Features
+            </div>
+          </Link>
           <ChevronDownIcon className="w-5 h-5 mt-1 ml-1" aria-hidden="true" />
         </Menu.Button>
       </div>
