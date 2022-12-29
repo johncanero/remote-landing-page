@@ -136,11 +136,12 @@ const Navbar = () => {
 
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   {/* Bell Button */}
-                  <Link
+                  <Link rel="noopener noreferrer" 
                     href="/"
-                    className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
-                    Login
+                    <div className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                      Login
+                    </div>
                   </Link>
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">

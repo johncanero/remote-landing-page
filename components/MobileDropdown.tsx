@@ -34,7 +34,7 @@ export default function Example() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <Link
+                <Link rel="noopener noreferrer"
                   href="/features"
 
                 >
@@ -49,7 +49,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link
+                <Link rel="noopener noreferrer"
                   href="/company"
 
                 >
@@ -65,7 +65,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link
+                <Link rel="noopener noreferrer"
                   href="/careers"
 
                 >
@@ -84,7 +84,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link
+                <Link rel="noopener noreferrer"
                   href="/about"
 
                 >
@@ -104,8 +104,8 @@ export default function Example() {
 
             <Menu.Item>
               {({ active }) => (
-                <Link
-                  href="#"
+                <Link rel="noopener noreferrer"
+                  href="/"
 
                 >
                   <div className={classNames(
