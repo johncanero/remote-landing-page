@@ -12,6 +12,7 @@ import FeaturesDropdown from "./FeaturesDropdown";
 import CompanyDropdown from "./CompanyDropdown";
 import MobileDropdown from "./MobileDropdown";
 
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
@@ -112,29 +113,29 @@ const Navbar = () => {
                   {/* Links */}
                   <FeaturesDropdown />
                   <CompanyDropdown />
-                  <a
+                  <Link
                     href="/careers"
                     className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     Careers
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/about"
                     className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     About
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   {/* Bell Button */}
-                  <a
-                    href="#"
+                  <Link
+                    href="/"
                     className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     Login
-                  </a>
+                  </Link>
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">
                     <div>
