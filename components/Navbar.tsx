@@ -113,14 +113,14 @@ const Navbar = () => {
                   <FeaturesDropdown />
                   <CompanyDropdown />
                   <a
-                    href="#"
+                    href="/careers"
                     className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     Careers
                   </a>
 
                   <a
-                    href="#"
+                    href="/about"
                     className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins"
                   >
                     About

@@ -60,7 +60,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="/careers"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 py-3 mt-1 text-base font-Poppins font-medium"
@@ -79,7 +79,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="/about"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 py-4 mt-1 text-base font-Poppins font-medium"
