@@ -5,6 +5,7 @@ import FeaturesDropdown from "./FeaturesDropdown";
 import CompanyDropdown from "./CompanyDropdown";
 import { MdNaturePeople } from "@react-icons/all-files/md/MdNaturePeople";
 import { FcAbout } from "@react-icons/all-files/fc/FcAbout";
+import Link from "next/link";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -33,7 +34,7 @@ export default function Example() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -41,12 +42,12 @@ export default function Example() {
                   )}
                 >
                   <FeaturesDropdown />
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -54,12 +55,12 @@ export default function Example() {
                   )}
                 >
                   <CompanyDropdown />
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="/careers"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -73,12 +74,12 @@ export default function Example() {
                     />
                     Careers
                   </div>
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="/about"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -92,13 +93,13 @@ export default function Example() {
                     />
                     About
                   </div>
-                </a>
+                </Link>
               )}
             </Menu.Item>
 
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
@@ -106,7 +107,7 @@ export default function Example() {
                   )}
                 >
                   Login
-                </a>
+                </Link>
               )}
             </Menu.Item>
 
