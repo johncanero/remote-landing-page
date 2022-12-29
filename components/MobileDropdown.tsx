@@ -35,26 +35,31 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/features"
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 py-3 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <FeaturesDropdown />
+                  )}>
+                    <FeaturesDropdown />
+                  </div>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="#"
-                  className={classNames(
+                  href="/company"
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 py-3 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <CompanyDropdown />
+                  )}>
+
+                    <CompanyDropdown />
+                  </div>
                 </Link>
               )}
             </Menu.Item>
@@ -62,12 +67,12 @@ export default function Example() {
               {({ active }) => (
                 <Link
                   href="/careers"
-                  className={classNames(
+
+                >
+                  <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 py-3 mt-1 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <div className="flex">
+                  )}>
                     <MdNaturePeople
                       className="mt-1 mr-2 md:hidden sm:block text-remoteLightBrown"
                       size={18}
@@ -81,12 +86,12 @@ export default function Example() {
               {({ active }) => (
                 <Link
                   href="/about"
-                  className={classNames(
+                 
+                >
+                  <div  className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
                     "flex px-4 py-4 mt-1 text-base font-Poppins font-medium"
-                  )}
-                >
-                  <div className="flex">
+                  )}>
                     <FcAbout
                       className="mt-1 mr-2 md:hidden sm:block"
                       size={18}
@@ -111,7 +116,7 @@ export default function Example() {
               )}
             </Menu.Item>
 
-          
+
 
             <Menu.Item as="div" className="relative">
               <div>
