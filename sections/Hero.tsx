@@ -64,8 +64,8 @@ const Hero = () => {
 
           {/* Tablet and Desktop: Clients */}
           <div>
-            <div className="hidden md:flex md:justify-center md:mt-16 md:mb-12 lg:mt-14">
-              <div className="mr-5 w-28 md:mb-10">
+            <div className="hidden md:flex md:justify-left md:mt-16 md:mb-12 lg:mt-14">
+              <div className="mr-5 w-36 md:mb-10">
                 <Image className="" src={DataBiz} alt="DataBiz Feature" />
               </div>
               <div className="w-24 mx-10 md:mb-10">
@@ -82,11 +82,11 @@ const Hero = () => {
         </div>
 
         {/* Desktop */}
-        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-14 lg:mt-8">
+        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-20 lg:mt-14">
           <div className="">
             <Image
-              width={1500}
-              height={1100}
+              width={1300}
+              height={920}
               className="block"
               src={HeroImage}
               alt="Hero Feature"

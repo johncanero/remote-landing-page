@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="py-4 text-sm text-center text-gray-500 md:text-base md:block md:py-6 font-Poppins">
+    <footer className="py-4 text-sm text-center text-gray-500 md:text-base md:block md:py-8 font-Poppins">
       <Link
         target="_blank"
         rel="noopener noreferrer"
