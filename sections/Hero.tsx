@@ -82,11 +82,11 @@ const Hero = () => {
         </div>
 
         {/* Desktop */}
-        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-20 lg:mt-14">
+        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-28 lg:mt-20">
           <div className="">
             <Image
-              width={1300}
-              height={920}
+              width={1750}
+              height={1280}
               className="block"
               src={HeroImage}
               alt="Hero Feature"
