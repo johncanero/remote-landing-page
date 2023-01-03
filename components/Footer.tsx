@@ -1,22 +1,20 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="fixed inset-x-0 bottom-0 py-1 text-center font-Poppins bg-zinc-50 lg:text-left dark:bg-zinc-900">
-        <div className="p-3 text-center text-gray-800 dark:text-zinc-400">
-          © 2022 Copyright:
-          <a
-            className="ml-1 font-semibold text-gray-800 dark:text-zinc-400"
-            target="_blank"
-            href="https://www.linkedin.com/in/johncanero/"
-            rel="noopener noreferrer"
-          >
-            John Cañero
-          </a>
-        </div>
-      </footer>
-    </div>
+    <footer className="py-4 text-sm text-center text-gray-500 md:text-base md:block md:py-6 font-Poppins">
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/johncanero/"
+      >
+        <span className="mr-2 font-bold text-gray-900 dark:text-amber-400">
+          John Cañero
+        </span>
+      </Link>
+      &copy; {new Date().getFullYear()} All Rights Reserved
+    </footer>
   );
 };
 

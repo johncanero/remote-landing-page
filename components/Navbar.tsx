@@ -97,9 +97,9 @@ const Navbar = () => {
 
             {/* Tablet and Desktop */}
             <div className="flex justify-center px-2 mx-auto shadow-sm sm:hidden md:block sm:px-6 md:px-8 lg:pl-12 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
-              <div className="relative flex items-center justify-between h-20">
+              <div className="relative flex items-center justify-between py-5">
                 <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
-                  <div className="flex items-center flex-shrink-0 h-8 md:w-32 lg:w-44">
+                  <div className="flex items-center flex-shrink-0 h-8 md:w-32 lg:w-40">
                     {/* Image */}
                     <Link href="/" passHref>
                       <Image
