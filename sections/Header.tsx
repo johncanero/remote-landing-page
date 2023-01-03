@@ -8,16 +8,16 @@ import { BsMoon } from "@react-icons/all-files/bs/BsMoon";
 import { BsSun } from "@react-icons/all-files/bs/BsSun";
 // Public Files
 import RemoteLogo from "../public/images/remoteLogo.png";
-import FeaturesDropdown from "./FeaturesDropdown";
-import CompanyDropdown from "./CompanyDropdown";
-import MobileDropdown from "./MobileDropdown";
+import FeaturesDropdown from "../components/FeaturesDropdown";
+import CompanyDropdown from "../components/CompanyDropdown";
+import MobileDropdown from "../components/MobileDropdown";
 
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Navbar = () => {
+const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -163,4 +163,6 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
+
+
