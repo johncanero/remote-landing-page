@@ -10,7 +10,7 @@ const index = () => {
                 </h1>
 
                 <div className='flex justify-center'>
-                    <div className="mx-8 mt-4 mb-12 md:mx-16 lg:mt-4 lg:mx-0 md:max-w-2xl lg:max-w-4xl font-Poppins">
+                    <div className="mx-4 mt-4 mb-12 md:mx-16 lg:mt-4 lg:mx-0 md:max-w-2xl lg:max-w-4xl font-Poppins">
                         <p className='text-justify text-md'>
                             1. <span className="font-extrabold dark:text-remoteLightBrown">Flexibility</span>: Remote work offers more flexibility to employees in terms of when and where they work. This allows them to better balance their personal and professional responsibilities.
                         </p>
