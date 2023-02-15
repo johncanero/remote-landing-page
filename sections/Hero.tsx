@@ -9,7 +9,7 @@ import Maker from "../public/images/client-maker.svg";
 const Hero = () => {
   return (
     <div>
-      <div className="lg:flex lg:justify-center lg:mx-auto font-Poppins">
+      <div className="lg:flex lg:justify-center font-Poppins">
         {/* Mobile and Tablet */}
         <div className="lg:hidden sm:mt-2 md:flex md:justify-center">
           <div>
@@ -30,7 +30,7 @@ const Hero = () => {
             <span className="text-remoteLightBrown">.</span>
           </h1>
 
-          <p className="mt-8 text-lg font-medium text-gray-500 md:mr-56 md:mt-11 lg:mt-14 ">
+          <p className="mt-8 text-lg font-medium text-gray-50010md:mt-11 lg:mt-14 ">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
@@ -82,11 +82,11 @@ const Hero = () => {
         </div>
 
         {/* Desktop */}
-        <div className="sm:hidden md:hidden lg:block lg:mx-18 lg:mr-28 lg:mt-20">
+        <div className="sm:hidden md:hidden lg:block lg:pr-20 lg:mt-20">
           <div className="">
             <Image
-              width={1750}
-              height={1280}
+              width={1200}
+              height={900}
               className="block"
               src={HeroImage}
               alt="Hero Feature"

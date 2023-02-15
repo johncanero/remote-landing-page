@@ -15,11 +15,11 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full py-2 text-base font-medium md:ml-6 font-Poppins text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 ">
+        <Menu.Button className="inline-flex w-full py-1 text-base font-medium md:ml-4 lg:ml-8 font-Poppins text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 ">
           <Link rel="noopener noreferrer" href="/company">
 
             <div className="flex">
-              <GiTvRemote className="mt-1 mr-2 md:hidden sm:block text-remoteBlue" size={18} /> Company
+              <GiTvRemote className="mt-1 mr-2 md:hidden sm:block text-remoteBlue" size={18} /> <span className="text-md">Company</span>
             </div>
           </Link>
           <ChevronDownIcon className="w-5 h-5 mt-1 ml-1" aria-hidden="true" />

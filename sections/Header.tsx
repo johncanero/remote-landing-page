@@ -72,7 +72,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div className=" font-Poppins">
       <Disclosure as="nav" className="bg-white">
         {({ open }) => (
           <div>
@@ -96,7 +96,7 @@ const Header = () => {
             </div>
 
             {/* Tablet and Desktop */}
-            <div className="flex justify-center px-2 mx-auto shadow-sm sm:hidden md:block sm:px-6 md:px-8 lg:pl-12 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
+            <div className="flex justify-center px-2 mx-auto shadow-sm sm:hidden md:block sm:px-6 md:px-8 lg:px-24 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
               <div className="relative flex items-center justify-between py-5">
                 <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
                   <div className="flex items-center flex-shrink-0 h-8 md:w-32 lg:w-40">
@@ -118,7 +118,7 @@ const Header = () => {
                     href="/careers"
 
                   >
-                    <div className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                    <div className="py-1 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-4 lg:ml-8 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
                       <h2>Careers</h2>
                     </div>
 
@@ -128,7 +128,7 @@ const Header = () => {
                     rel="noopener noreferrer"
                     href="/about"
                   >
-                    <div className="py-2 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-6 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                    <div className="py-1 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-4 lg:ml-8 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
                       <h2>About</h2>
                     </div>
                   </Link>
@@ -136,7 +136,7 @@ const Header = () => {
 
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   {/* Bell Button */}
-                  <Link rel="noopener noreferrer" 
+                  <Link rel="noopener noreferrer"
                     href="/"
                   >
                     <div className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">

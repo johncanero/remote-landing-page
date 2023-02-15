@@ -5,7 +5,7 @@
 /* Layer Base */
 @layer base {
     body {
-      @apply mx-auto sm:max-w-sm md:max-w-3xl lg:max-w-fit;
+       @apply mx-auto;
         @apply dark:bg-zinc-900 dark:text-zinc-100 bg-zinc-50 text-zinc-900
     }
     .highlight:before {
