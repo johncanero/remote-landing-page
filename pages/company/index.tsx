@@ -93,6 +93,11 @@ const index = () => {
                         <p className='mt-3 text-justify text-md'>
                             If you're ready to join the remote work revolution and work for a company that's committed to your success, Remote is the place for you. Apply today and let's start working together to create a better future for remote work.
                         </p>
+
+                        {/* Chat GPT */}
+                        <p className="mt-4 text-xs font-ShareTechMono md:text-sm dark:text-remoteLightBrown">
+                            From ChatGPT: Optimizing Language Model for Dialogue
+                        </p>
                     </div>
                 </div>
 
