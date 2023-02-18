@@ -106,7 +106,7 @@ const Hero = () => {
               <Link rel="noopener noreferrer" href="/features">
                 <Image
                   width={600}
-                  height={500}
+                  height={400}
                   className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
                   src="/images/remoteWorkFeatureCompressed.jpg"
                   alt="Remote Work Feature"
