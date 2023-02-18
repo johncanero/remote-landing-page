@@ -28,7 +28,7 @@ const Hero = () => {
           <h1 className="text-4xl font-bold md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
             Make remote work<span className="text-remoteOrange">.</span>
             <span className="text-remoteBlue">.</span>
-            <span className="text-remoteLightBrown">.</span> 💻
+            <span className="text-remoteLightBrown">.</span> 
           </h1>
 
           <p className="mt-8 text-lg font-medium text-gray-500 lg:mr-24 md:mt-11 lg:mt-12 ">
@@ -117,10 +117,8 @@ const Hero = () => {
 
           {/* Features - label */}
           <div className="md:ml-6 mt-6 md:mt-0">
-            <h2 className="text-5xl font-bold md:text-5xl lg:text-6xl ">
-              Features<span className="text-remoteOrange">.</span>
-              <span className="text-remoteBlue">.</span>
-              <span className="text-remoteLightBrown">.</span>
+            <h2 className="text-5xl font-bold md:text-5xl">
+              Features
             </h2>
             <div className="max-w-md lg:max-w-2xl mt-3">
               <p className='text-justify text-md'>

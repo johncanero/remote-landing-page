@@ -1,10 +1,20 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 const index = () => {
     return (
         <div>
+            <div className='flex justify-center'>
+                <Image
+                    width={2000}
+                    height={500}
+                    className=" absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
+                    src="/images/remoteWorkFeatureCompressed.jpg"
+                    alt="Remote Work Feature"
+                />
+            </div>
             <div className='sm:mx-8 md:mx-20 lg:mx-24'>
+
                 <h1 className="flex justify-center mt-6 text-2xl font-bold  lg:text-left font-Poppins dark:text-amber-400">
                     Features
                 </h1>
