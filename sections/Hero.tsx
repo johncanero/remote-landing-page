@@ -116,11 +116,11 @@ const Hero = () => {
           </div>
 
           {/* Features - label */}
-          <div className="md:ml-6 mt-6 md:mt-0">
+          <div className="md:ml-9 mt-6 md:mt-0">
             <h2 className="text-5xl font-bold md:text-5xl">
               Features
             </h2>
-            <div className="max-w-md lg:max-w-2xl mt-3">
+            <div className="max-w-lg lg:max-w-2xl mt-3">
               <p className='text-justify text-md'>
                 1. <span className="font-semibold dark:text-remoteLightBrown">Flexibility</span>: Remote work offers more flexibility to employees in terms of when and where they work. This allows them to better balance their personal and professional responsibilities.
               </p>
