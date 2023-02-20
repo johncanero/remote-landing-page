@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,7 +29,7 @@ const Hero = () => {
           <h1 className="text-4xl font-bold md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
             Make remote work<span className="text-remoteOrange">.</span>
             <span className="text-remoteBlue">.</span>
-            <span className="text-remoteLightBrown">.</span> 
+            <span className="text-remoteLightBrown">.</span>
           </h1>
 
           <p className="mt-8 text-lg font-medium text-gray-500 lg:mr-24 md:mt-11 lg:mt-12 ">
@@ -105,19 +106,19 @@ const Hero = () => {
             <div>
               <Link rel="noopener noreferrer" href="/features">
                 <Image
-                  width={600}
-                  height={400}
+                  width={700}
+                  height={500}
                   className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
                   src="/images/remoteWorkFeatureCompressed.jpg"
-                  alt="Remote Work Feature"
+                  alt="Remote Image Feature"
                 />
               </Link>
             </div>
           </div>
 
           {/* Features - label */}
-          <div className="md:ml-9 mt-6 md:mt-0">
-            <h2 className="text-5xl font-bold md:text-5xl">
+          <div className="md:ml-9 mt-4 md:mt-0">
+            <h2 className="text-5xl font-bold md:text-4xl lg:text-5xl">
               Features
             </h2>
             <div className="max-w-lg lg:max-w-2xl mt-3">
@@ -142,9 +143,82 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
-
       </div>
+
+      {/* Company Section */}
+      <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
+        <div className="md:flex justify-between">
+
+          {/* Image - Mobile*/}
+          <div className="relative overflow-hidden block md:hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <div>
+              <Link rel="noopener noreferrer" href="/company">
+                <Image
+                  width={700}
+                  height={500}
+                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
+                  src="/images/companyCompressed.jpg"
+                  alt="Company Image Feature"
+                />
+              </Link>
+            </div>
+          </div>
+
+          {/* Company - label */}
+          <div className="mt-4 md:mt-0 md:mr-10">
+            <h2 className="text-5xl font-bold md:text-4xl lg:text-5xl">
+              Company
+            </h2>
+            <div className="max-w-lg lg:max-w-2xl mt-3">
+              <p className='text-justify text-md'>
+                Welcome to
+                <Link href="/">
+                  <a>
+                    <span className="font-extrabold dark:text-amber-400">&nbsp;Remote</span>
+                  </a>
+                </Link>,
+                the remote work company that's committed to providing a flexible and fulfilling work experience for our team members. We believe that remote work is the future of work, and we're proud to be leading the way in creating a culture of remote work excellence.
+              </p>
+
+              <p className='text-justify hidden lg:block text-md mt-2'>
+                Our Commitment to Remote Work:
+              </p>
+
+              <p className='text-justify text-md hidden lg:block mt-2'>
+                At Remote, remote work is not just an option - it's a core part of our company philosophy. We believe that remote work allows our team members to be more productive, creative, and engaged in their work, which ultimately leads to better outcomes for our clients and our company.
+              </p>
+
+              {/* Link: Read More */}
+              <div className="mt-2">
+                <Link rel="noopener noreferrer" href="/company">
+                  <a className="font-medium dark:text-amber-400 hover:underline">Read more...</a>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Image - Desktop and Tablet*/}
+          <div className="relative overflow-hidden bg-no-repeat hidden md:block bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <div>
+              <Link rel="noopener noreferrer" href="/company">
+                <Image
+                  width={700}
+                  height={500}
+                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
+                  src="/images/companyCompressed.jpg"
+                  alt="Company Image Feature"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
     </div>
   );
 };

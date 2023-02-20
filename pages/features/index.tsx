@@ -5,7 +5,7 @@ const index = () => {
     return (
         <div>
             {/* Desktop */}
-            <div className='flex justify-center mt-6'>
+            <div className='flex justify-center mt-8'>
                 <div className='hidden lg:block'>
                     <Image
                         width={900}
