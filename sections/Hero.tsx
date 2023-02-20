@@ -217,6 +217,53 @@ const Hero = () => {
       </div>
 
 
+  {/* Features Section */}
+  <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
+        <div className="md:flex justify-between">
+          {/* Image */}
+          <div className="relative overflow-hidden bg-no-repeat bg-cover"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <div>
+              <Link rel="noopener noreferrer" href="/careers">
+                <Image
+                  width={700}
+                  height={500}
+                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
+                  src="/images/cardCompressed2.jpg"
+                  alt="Careers Card"
+                />
+              </Link>
+            </div>
+          </div>
+
+          {/* Features - label */}
+          <div className="md:ml-9 mt-4 md:mt-0">
+            <h2 className="text-5xl font-bold md:text-4xl lg:text-5xl">
+              Careers
+            </h2>
+            <div className="max-w-lg lg:max-w-2xl mt-3">
+              <p className='text-justify text-md'>
+                1. <span className="font-semibold dark:text-remoteLightBrown">Flexibility</span>: Remote work offers more flexibility to employees in terms of when and where they work. This allows them to better balance their personal and professional responsibilities.
+              </p>
+
+              <p className='text-justify text-md'>
+                2. <span className="font-semibold dark:text-remoteLightBrown">Cost-saving</span>: Remote work eliminates the need for a physical office space, which can save employers money on rent, utilities, and other overhead costs.
+              </p>
+
+              <p className='text-justify text-md hidden lg:block'>
+                3. <span className="font-semibold dark:text-remoteLightBrown">Increased Productivity</span>: Studies have shown that remote workers are often more productive than their in-office counterparts, due to fewer distractions and a more comfortable working environment.
+              </p>
+
+              {/* Link: Read More */}
+              <div className="mt-2">
+                <Link rel="noopener noreferrer" href="/features">
+                  <a className="font-medium dark:text-amber-400 hover:underline">Read more...</a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     </div>
