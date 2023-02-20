@@ -16,7 +16,8 @@ const index = () => {
                     />
                 </div>
             </div>
-
+            
+            {/* Tablet & Mobile */}
             <div className='flex justify-center md:mt-6'>
                 <div className='lg:hidden '>
                     <Image
@@ -32,8 +33,7 @@ const index = () => {
 
 
             <div className='sm:mx-8 md:mx-20 lg:mx-24'>
-
-                <h1 className="flex justify-center mt-6 text-2xl font-bold  lg:text-left font-Poppins dark:text-amber-400">
+                <h1 className="flex justify-center mt-6 md:mt-3 lg:mt-0 text-2xl font-bold  lg:text-left font-Poppins dark:text-amber-400">
                     Features
                 </h1>
 
