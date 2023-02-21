@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import { MdComputer } from '@react-icons/all-files/md/MdComputer'
+import { BiPen} from '@react-icons/all-files/bi/BiPen'
+
 
 const index = () => {
     return (
@@ -45,6 +48,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center  font-OpenSans">Software Development</h2>
                             <p>Many software developers work remotely, as long as they have access to a reliable internet connection and a computer with the necessary software.</p>
+                            <MdComputer className='mx-auto mt-2' size={80} />
                         </div>
                     </div>
                 </div>
@@ -55,6 +59,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Graphic Design</h2>
                             <p>Graphic designers can work from anywhere as long as they have a computer and access to design software.</p>
+                            <BiPen className='mx-auto mt-2' size={70} />
                         </div>
                     </div>
                 </div>
