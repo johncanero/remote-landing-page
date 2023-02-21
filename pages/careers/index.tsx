@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { MdComputer } from '@react-icons/all-files/md/MdComputer'
-import { BiPen} from '@react-icons/all-files/bi/BiPen'
+import { BiPen } from '@react-icons/all-files/bi/BiPen'
 import { AiOutlineFileWord } from '@react-icons/all-files/ai/AiOutlineFileWord'
 import { BsPersonPlus } from '@react-icons/all-files/bs/BsPersonPlus'
 import { HiOutlineTranslate } from '@react-icons/all-files/hi/HiOutlineTranslate'
@@ -23,7 +23,7 @@ import { AiOutlineEdit } from '@react-icons/all-files/ai/AiOutlineEdit'
 
 const index = () => {
     return (
-        <div>
+        <div className='mb-28'>
 
             {/* Desktop */}
             <div className='flex justify-center mt-8'>
@@ -31,7 +31,7 @@ const index = () => {
                     <Image
                         width={900}
                         height={500}
-                        className="absolute top-0 bottom-0 left-0 right-0 w-full h-full  rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-3xl"
                         src="/images/cardCompressed2.jpg"
                         alt="Careers Card"
                     />
@@ -44,7 +44,7 @@ const index = () => {
                     <Image
                         width={500}
                         height={300}
-                        className="absolute top-0 bottom-0 left-0 right-0  md:rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0 md:rounded-3xl"
                         src="/images/cardCompressed2.jpg"
                         alt="Careers Card"
                     />
@@ -57,7 +57,7 @@ const index = () => {
                 </h1>
             </div>
 
-            <div className='flex flex-wrap justify-center gap-10 mt-8 lg:mx-56 mb-36'>
+            <div className='flex flex-wrap justify-center gap-10 mt-8 lg:mx-56'>
 
                 {/* Card */}
                 <div>
@@ -231,7 +231,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Event and Planning</h2>
                             <p>Event planners can work remotely, coordinating events through virtual tools and platforms.</p>
-                            <BsCalendar className='mx-auto mt-10' size={62}/>
+                            <BsCalendar className='mx-auto mt-10' size={62} />
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Public Relations</h2>
                             <p>Public relations professionals can work remotely, managing social media accounts, writing press releases, and developing media strategies.</p>
-                            <MdSupervisorAccount className='mx-auto mt-4' size={70}/>
+                            <MdSupervisorAccount className='mx-auto mt-4' size={70} />
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Sales</h2>
                             <p>Sales representatives can work remotely, managing accounts, prospecting, and closing deals through remote communication.</p>
-                            <FcSalesPerformance className='mx-auto mt-3' size={70}/>
+                            <FcSalesPerformance className='mx-auto mt-3' size={70} />
                         </div>
                     </div>
                 </div>
@@ -267,7 +267,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Education</h2>
                             <p>Educators can work remotely, developing curricula, creating instructional materials, and teaching classes online.</p>
-                            <FaUniversity className='mx-auto mt-5' size={70}/>
+                            <FaUniversity className='mx-auto mt-5' size={70} />
                         </div>
                     </div>
                 </div>
@@ -278,11 +278,16 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Editing and Proofreading</h2>
                             <p>Editors and proofreaders can work remotely, editing and proofreading written materials such as books, articles, and reports.</p>
-                            <AiOutlineEdit className='mx-auto mt-5' size={70}/>
+                            <AiOutlineEdit className='mx-auto mt-5' size={70} />
                         </div>
                     </div>
                 </div>
-
+            </div>
+            {/* Chat GPT */}
+            <div className='mt-12 text-center'>
+                <p className="mt-4 text-xs font-ShareTechMono md:text-sm dark:text-remoteLightBrown">
+                    From ChatGPT: Optimizing Language Model for Dialogue
+                </p>
             </div>
         </div>
     )

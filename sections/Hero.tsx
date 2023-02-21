@@ -66,7 +66,7 @@ const Hero = () => {
 
           {/* Tablet and Desktop: Clients */}
           <div>
-            <div className="hidden md:flex md:justify-left md:mt-16  lg:mt-14">
+            <div className="hidden md:flex md:justify-left md:mt-16 lg:mt-14">
               <div className="mr-5 w-36 md:mb-10">
                 <Image className="" src={DataBiz} alt="DataBiz Feature" />
               </div>
@@ -98,30 +98,32 @@ const Hero = () => {
       </div>
 
       {/* Features Section */}
-      <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
-        <div className="md:flex justify-between">
+      <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
+        <div className="justify-between md:flex">
           {/* Image */}
           <div className="relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
             <div>
               <Link rel="noopener noreferrer" href="/features">
-                <Image
-                  width={700}
-                  height={500}
-                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
-                  src="/images/remoteWorkFeatureCompressed.jpg"
-                  alt="Remote Image Feature"
-                />
+                <a>
+                  <Image
+                    width={700}
+                    height={500}
+                    className="absolute top-0 bottom-0 left-0 right-0 w-full h-full overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-70"
+                    src="/images/remoteWorkFeatureCompressed.jpg"
+                    alt="Remote Image Feature"
+                  />
+                </a>
               </Link>
             </div>
           </div>
 
           {/* Features - label */}
-          <div className="md:ml-9 mt-4 md:mt-0">
-            <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl">
+          <div className="mt-4 md:ml-9 md:mt-0">
+            <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
               Features
             </h2>
-            <div className="max-w-lg lg:max-w-2xl mt-3">
+            <div className="max-w-lg mt-3 lg:max-w-2xl">
               <p className='text-justify text-md'>
                 1. <span className="font-semibold dark:text-remoteLightBrown">Flexibility</span>: Remote work offers more flexibility to employees in terms of when and where they work. This allows them to better balance their personal and professional responsibilities.
               </p>
@@ -130,7 +132,7 @@ const Hero = () => {
                 2. <span className="font-semibold dark:text-remoteLightBrown">Cost-saving</span>: Remote work eliminates the need for a physical office space, which can save employers money on rent, utilities, and other overhead costs.
               </p>
 
-              <p className='text-justify text-md hidden lg:block'>
+              <p className='hidden text-justify text-md lg:block'>
                 3. <span className="font-semibold dark:text-remoteLightBrown">Increased Productivity</span>: Studies have shown that remote workers are often more productive than their in-office counterparts, due to fewer distractions and a more comfortable working environment.
               </p>
 
@@ -146,21 +148,23 @@ const Hero = () => {
       </div>
 
       {/* Company Section */}
-      <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
-        <div className="md:flex justify-between">
+      <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
+        <div className="justify-between md:flex">
 
           {/* Image - Mobile*/}
-          <div className="relative overflow-hidden block md:hidden bg-no-repeat bg-cover"
+          <div className="relative block overflow-hidden bg-no-repeat bg-cover md:hidden"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
             <div>
               <Link rel="noopener noreferrer" href="/company">
-                <Image
-                  width={700}
-                  height={500}
-                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
-                  src="/images/companyCompressed.jpg"
-                  alt="Company Image Feature"
-                />
+                <a>
+                  <Image
+                    width={700}
+                    height={500}
+                    className="absolute top-0 bottom-0 left-0 right-0 w-full h-full overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-70"
+                    src="/images/companyCompressed.jpg"
+                    alt="Company Image Feature"
+                  />
+                </a>
               </Link>
             </div>
           </div>
@@ -170,7 +174,7 @@ const Hero = () => {
             <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
               Company
             </h2>
-            <div className="max-w-lg lg:max-w-2xl mt-3">
+            <div className="max-w-lg mt-3 lg:max-w-2xl">
               <p className='text-justify text-md'>
                 Welcome to
                 <Link href="/">
@@ -181,11 +185,11 @@ const Hero = () => {
                 the remote work company that's committed to providing a flexible and fulfilling work experience for our team members. We believe that remote work is the future of work, and we're proud to be leading the way in creating a culture of remote work excellence.
               </p>
 
-              <p className='text-justify hidden lg:block text-md mt-2'>
+              <p className='hidden mt-2 text-justify lg:block text-md'>
                 Our Commitment to Remote Work:
               </p>
 
-              <p className='text-justify text-md hidden lg:block mt-2'>
+              <p className='hidden mt-2 text-justify text-md lg:block'>
                 At Remote, remote work is not just an option - it's a core part of our company philosophy. We believe that remote work allows our team members to be more productive, creative, and engaged in their work, which ultimately leads to better outcomes for our clients and our company.
               </p>
 
@@ -199,17 +203,19 @@ const Hero = () => {
           </div>
 
           {/* Image - Desktop and Tablet*/}
-          <div className="relative overflow-hidden bg-no-repeat hidden md:block bg-cover"
+          <div className="relative hidden overflow-hidden bg-no-repeat bg-cover md:block"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
             <div>
               <Link rel="noopener noreferrer" href="/company">
-                <Image
-                  width={700}
-                  height={500}
-                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
-                  src="/images/companyCompressed.jpg"
-                  alt="Company Image Feature"
-                />
+                <a>
+                  <Image
+                    width={700}
+                    height={500}
+                    className="absolute top-0 bottom-0 left-0 right-0 w-full h-full overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-70"
+                    src="/images/companyCompressed.jpg"
+                    alt="Company Image Feature"
+                  />
+                </a>
               </Link>
             </div>
           </div>
@@ -218,43 +224,45 @@ const Hero = () => {
 
 
       {/* Careers Section */}
-      <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
-        <div className="md:flex justify-between">
+      <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
+        <div className="justify-between md:flex">
           {/* Image */}
           <div className="relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
             <div>
               <Link rel="noopener noreferrer" href="/careers">
-                <Image
-                  width={700}
-                  height={500}
-                  className=" rounded-3xl absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-100 hover:opacity-70 transition duration-300 ease-in-out"
-                  src="/images/cardCompressed2.jpg"
-                  alt="Careers Card"
-                />
+                <a>
+                  <Image
+                    width={700}
+                    height={500}
+                    className="absolute top-0 bottom-0 left-0 right-0 w-full h-full overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-70"
+                    src="/images/cardCompressed2.jpg"
+                    alt="Careers Card"
+                  />
+                </a>
               </Link>
             </div>
           </div>
 
           {/* Careers - label */}
-          <div className="md:ml-9 mt-4 md:mt-0">
+          <div className="mt-4 md:ml-9 md:mt-0">
             <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
               Careers
             </h2>
-            <div className="max-w-lg lg:max-w-2xl mt-3">
+            <div className="max-w-lg mt-3 lg:max-w-2xl">
               <p className='text-justify text-md'>
                 Remote work has become increasingly popular in recent years, especially due to the COVID-19 pandemic. There are many careers that can be done remotely, including:
               </p>
 
-              <p className='text-justify text-md mt-2'>
+              <p className='mt-2 text-justify text-md'>
                 1. <span className="font-semibold dark:text-remoteLightBrown">Software Development</span>: Many software developers work remotely, as long as they have access to a reliable internet connection and a computer with the necessary software.
               </p>
 
-              <p className='text-justify text-md hidden lg:block'>
+              <p className='hidden text-justify text-md lg:block'>
                 2. <span className="font-semibold dark:text-remoteLightBrown">Graphic Design</span>: Graphic designers can work from anywhere as long as they have a computer and access to design software.
               </p>
 
-              <p className='text-justify text-md hidden lg:block'>
+              <p className='hidden text-justify text-md lg:block'>
                 3. <span className="font-semibold dark:text-remoteLightBrown">Marketing</span>: Marketers can work remotely, managing social media accounts, running email campaigns, and developing marketing strategies.
               </p>
 
@@ -266,6 +274,23 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Desktop */}
+      <div className='flex mt-8 '>
+        <div className='justify-center hidden mx-auto lg:block'>
+          <Link rel="noopener noreferrer" href="/about">
+            <a>
+              <Image
+                width={1200}
+                height={600}
+                className="absolute top-0 bottom-0 left-0 right-0 w-full h-full overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
+                src="/images/remoteWorkAppPresentation.png"
+                alt="Remote Work App Presentation"
+              />
+            </a>
+          </Link>
         </div>
       </div>
 
