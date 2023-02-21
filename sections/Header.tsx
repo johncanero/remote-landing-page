@@ -118,9 +118,11 @@ const Header = () => {
                     href="/careers"
 
                   >
-                    <div className="py-1 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-4 lg:ml-8 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
-                      <h2>Careers</h2>
-                    </div>
+                    <a>
+                      <div className="py-1 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-4 lg:ml-8 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                        <h2>Careers</h2>
+                      </div>
+                    </a>
 
                   </Link>
 
@@ -128,9 +130,11 @@ const Header = () => {
                     rel="noopener noreferrer"
                     href="/about"
                   >
-                    <div className="py-1 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-4 lg:ml-8 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
-                      <h2>About</h2>
-                    </div>
+                    <a>
+                      <div className="py-1 text-base font-medium text-zinc-600 hover:text-zinc-800 md:ml-4 lg:ml-8 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                        <h2>About</h2>
+                      </div>
+                    </a>
                   </Link>
                 </div>
 
@@ -139,9 +143,11 @@ const Header = () => {
                   <Link rel="noopener noreferrer"
                     href="/"
                   >
-                    <div className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
-                      Login
-                    </div>
+                    <a>
+                      <div className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
+                        Login
+                      </div>
+                    </a>
                   </Link>
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative">
