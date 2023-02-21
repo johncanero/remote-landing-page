@@ -118,7 +118,7 @@ const Hero = () => {
 
           {/* Features - label */}
           <div className="md:ml-9 mt-4 md:mt-0">
-            <h2 className="text-5xl font-bold md:text-4xl lg:text-5xl">
+            <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl">
               Features
             </h2>
             <div className="max-w-lg lg:max-w-2xl mt-3">
@@ -167,7 +167,7 @@ const Hero = () => {
 
           {/* Company - label */}
           <div className="mt-4 md:mt-0 md:mr-10">
-            <h2 className="text-5xl font-bold md:text-4xl lg:text-5xl">
+            <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
               Company
             </h2>
             <div className="max-w-lg lg:max-w-2xl mt-3">
@@ -217,8 +217,8 @@ const Hero = () => {
       </div>
 
 
-  {/* Features Section */}
-  <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
+      {/* Careers Section */}
+      <div className="sm:mx-8 md:mx-20 lg:mx-32 mt-6 md:mt-0 mb-12">
         <div className="md:flex justify-between">
           {/* Image */}
           <div className="relative overflow-hidden bg-no-repeat bg-cover"
@@ -236,27 +236,31 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Features - label */}
+          {/* Careers - label */}
           <div className="md:ml-9 mt-4 md:mt-0">
-            <h2 className="text-5xl font-bold md:text-4xl lg:text-5xl">
+            <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
               Careers
             </h2>
             <div className="max-w-lg lg:max-w-2xl mt-3">
               <p className='text-justify text-md'>
-                1. <span className="font-semibold dark:text-remoteLightBrown">Flexibility</span>: Remote work offers more flexibility to employees in terms of when and where they work. This allows them to better balance their personal and professional responsibilities.
+                Remote work has become increasingly popular in recent years, especially due to the COVID-19 pandemic. There are many careers that can be done remotely, including:
               </p>
 
-              <p className='text-justify text-md'>
-                2. <span className="font-semibold dark:text-remoteLightBrown">Cost-saving</span>: Remote work eliminates the need for a physical office space, which can save employers money on rent, utilities, and other overhead costs.
+              <p className='text-justify text-md mt-2'>
+                1. <span className="font-semibold dark:text-remoteLightBrown">Software Development</span>: Many software developers work remotely, as long as they have access to a reliable internet connection and a computer with the necessary software.
               </p>
 
               <p className='text-justify text-md hidden lg:block'>
-                3. <span className="font-semibold dark:text-remoteLightBrown">Increased Productivity</span>: Studies have shown that remote workers are often more productive than their in-office counterparts, due to fewer distractions and a more comfortable working environment.
+                2. <span className="font-semibold dark:text-remoteLightBrown">Graphic Design</span>: Graphic designers can work from anywhere as long as they have a computer and access to design software.
+              </p>
+
+              <p className='text-justify text-md hidden lg:block'>
+                3. <span className="font-semibold dark:text-remoteLightBrown">Marketing</span>: Marketers can work remotely, managing social media accounts, running email campaigns, and developing marketing strategies.
               </p>
 
               {/* Link: Read More */}
               <div className="mt-2">
-                <Link rel="noopener noreferrer" href="/features">
+                <Link rel="noopener noreferrer" href="/careers">
                   <a className="font-medium dark:text-amber-400 hover:underline">Read more...</a>
                 </Link>
               </div>
