@@ -14,7 +14,7 @@ import { AiOutlineCalculator } from '@react-icons/all-files/ai/AiOutlineCalculat
 import { GrResources } from '@react-icons/all-files/gr/GrResources'
 import { VscLaw } from '@react-icons/all-files/vsc/VscLaw'
 import { RiHealthBookLine } from '@react-icons/all-files/ri/RiHealthBookLine'
-import { AiOutlineHome } from '@react-icons/all-files/ai/aioutlinehome'
+import { AiOutlineHome } from '@react-icons/all-files/ai/AiOutlineHome'
 import { BsCalendar } from '@react-icons/all-files/bs/BsCalendar'
 import { MdSupervisorAccount } from '@react-icons/all-files/md/MdSupervisorAccount'
 import { FcSalesPerformance } from '@react-icons/all-files/fc/FcSalesPerformance'
