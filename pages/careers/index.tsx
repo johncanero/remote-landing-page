@@ -31,7 +31,7 @@ const index = () => {
                     <Image
                         width={900}
                         height={500}
-                        className=" absolute top-0 right-0 bottom-0 left-0 w-full h-full rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0 w-full h-full  rounded-3xl"
                         src="/images/cardCompressed2.jpg"
                         alt="Careers Card"
                     />
@@ -44,7 +44,7 @@ const index = () => {
                     <Image
                         width={500}
                         height={300}
-                        className=" absolute top-0 right-0 bottom-0 left-0 md:rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0  md:rounded-3xl"
                         src="/images/cardCompressed2.jpg"
                         alt="Careers Card"
                     />
@@ -63,7 +63,7 @@ const index = () => {
                 <div>
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center  font-OpenSans">Software Development</h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Software Development</h2>
                             <p>Many software developers work remotely, as long as they have access to a reliable internet connection and a computer with the necessary software.</p>
                             <MdComputer className='mx-auto mt-2' size={80} />
                         </div>
