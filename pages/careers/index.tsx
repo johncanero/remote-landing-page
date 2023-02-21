@@ -41,7 +41,7 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center  font-OpenSans">Software Development</h2>
                             <p>Many software developers work remotely, as long as they have access to a reliable internet connection and a computer with the necessary software.</p>
@@ -51,7 +51,7 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden  shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Graphic Design</h2>
                             <p>Graphic designers can work from anywhere as long as they have a computer and access to design software.</p>
@@ -61,7 +61,7 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Writing</h2>
                             <p>Writers can work remotely as freelancers, writing articles, blog posts, or even full-length books.</p>
@@ -71,7 +71,7 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Virtual Assistance</h2>
                             <p>Virtual assistants can work remotely, helping businesses and individuals with tasks like scheduling, email management, and social media management.</p>
@@ -81,7 +81,7 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Translation</h2>
                             <p>Translators can work remotely, translating written documents or providing interpretation services for video calls.</p>
@@ -91,7 +91,7 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Customer Service</h2>
                             <p>Customer service representatives can work remotely, providing support over the phone, email, or chat.</p>
@@ -101,57 +101,148 @@ const index = () => {
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Online Teaching</h2>
+                            <p>Teachers can work remotely, teaching classes online to students all over the world.</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Marketing</h2>
+                            <p>Marketers can work remotely, managing social media accounts, running email campaigns, and developing marketing strategies.</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Data Analysis</h2>
+                            <p>Data analysts can work remotely, analyzing data and providing insights to help businesses make better decisions.</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Project Management</h2>
+                            <p>Project managers can work remotely, managing teams and projects from anywhere in the world.</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Accounting</h2>
+                            <p>Accountants can work remotely, managing financial records, preparing taxes, and providing financial advice.</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Card */}
                 <div>
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-400 to-amber-500 hover:from-amber-500 hover:to-yellow-400">
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Human Resources</h2>
+                            <p>Human resources professionals can work remotely, managing employee benefits, recruiting, and handling employee relations.</p>
                         </div>
                     </div>
                 </div>
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Legal</h2>
+                            <p>Lawyers and legal professionals can work remotely, drafting legal documents, providing legal advice, and representing clients in court through teleconferencing.</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Healthcare</h2>
+                            <p>Healthcare professionals can work remotely, providing telemedicine services, such as remote consultations, monitoring, and diagnosis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Architecture and Engineering</h2>
+                            <p>Architects and engineers can work remotely, designing plans, creating blueprints, and overseeing construction projects through remote collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Event and Planning</h2>
+                            <p>Event planners can work remotely, coordinating events through virtual tools and platforms.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Public Relations</h2>
+                            <p>Public relations professionals can work remotely, managing social media accounts, writing press releases, and developing media strategies.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Sales</h2>
+                            <p>Sales representatives can work remotely, managing accounts, prospecting, and closing deals through remote communication.</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Education</h2>
+                            <p>Educators can work remotely, developing curricula, creating instructional materials, and teaching classes online.</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card */}
+                <div>
+                    <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
+                        <div className="px-6">
+                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Editing and Proofreading</h2>
+                            <p>Editors and proofreaders can work remotely, editing and proofreading written materials such as books, articles, and reports.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
