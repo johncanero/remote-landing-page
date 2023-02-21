@@ -2,7 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import { MdComputer } from '@react-icons/all-files/md/MdComputer'
 import { BiPen} from '@react-icons/all-files/bi/BiPen'
-
+import { AiOutlineFileWord } from '@react-icons/all-files/ai/AiOutlineFileWord'
+import { BsPersonPlus } from '@react-icons/all-files/bs/BsPersonPlus'
+import { HiOutlineTranslate } from '@react-icons/all-files/hi/HiOutlineTranslate'
+import { AiOutlineCustomerService } from '@react-icons/all-files/ai/AiOutlineCustomerService'
 
 const index = () => {
     return (
@@ -70,6 +73,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Writing</h2>
                             <p>Writers can work remotely as freelancers, writing articles, blog posts, or even full-length books.</p>
+                            <AiOutlineFileWord className='mx-auto mt-8' size={70} />
                         </div>
                     </div>
                 </div>
@@ -80,6 +84,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Virtual Assistance</h2>
                             <p>Virtual assistants can work remotely, helping businesses and individuals with tasks like scheduling, email management, and social media management.</p>
+                            <BsPersonPlus className='mx-auto mt-3' size={70} />
                         </div>
                     </div>
                 </div>
@@ -90,6 +95,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Translation</h2>
                             <p>Translators can work remotely, translating written documents or providing interpretation services for video calls.</p>
+                            <HiOutlineTranslate className='mx-auto mt-8' size={70} />
                         </div>
                     </div>
                 </div>
@@ -100,6 +106,7 @@ const index = () => {
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Customer Service</h2>
                             <p>Customer service representatives can work remotely, providing support over the phone, email, or chat.</p>
+                            <AiOutlineCustomerService className='mx-auto mt-12' size={70} />
                         </div>
                     </div>
                 </div>
