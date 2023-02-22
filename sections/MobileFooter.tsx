@@ -35,6 +35,16 @@ const MobileFooter = () => {
                     </button>
                 </Link>
 
+
+
+                {/* LinkedIn */}
+                <Link href="https://www.linkedin.com/company/upskill-hub/" rel="noopener noreferrer">
+                    <button className="hover:text-neutral-700 dark:hover:text-gray-50">
+                        <AiOutlineLinkedin className="ml-2" size={22} />
+                        <p className="mt-1 text-xs text-center font-Poppins">Upskill</p>
+                    </button>
+                </Link>
+
                 {/* Careers */}
                 <Link href="/careers" rel="noopener noreferrer">
                     <button className="hover:text-neutral-700 dark:hover:text-gray-50">
@@ -43,14 +53,6 @@ const MobileFooter = () => {
                     </button>
                 </Link>
 
-
-                {/* LinkedIn */}
-                <Link href="/careers" rel="noopener noreferrer">
-                    <button className="hover:text-neutral-700 dark:hover:text-gray-50">
-                        <AiOutlineLinkedin className="ml-3" size={22} />
-                        <p className="mt-1 text-xs text-center font-Poppins">Careers</p>
-                    </button>
-                </Link>
             </div>
         </footer>
     );
