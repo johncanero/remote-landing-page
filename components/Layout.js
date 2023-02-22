@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
 // Mobile
-// import MenuDropdown from "../sections/MenuDropdown";
+import MobileFooter from "../sections/MobileFooter";
 
 const Layout = ({ children }) => {
   return (
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         {/* <MenuDropdown /> */}
         <main className="flex-grow">{children}</main>
         <Footer />
-        {/* <MobileFooterButtons /> */}
+        <MobileFooter />
       </div>
     </>
   );
