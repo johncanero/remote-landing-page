@@ -10,7 +10,7 @@ import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
 const MobileFooter = () => {
     return (
         <footer>
-            <div className="fixed bottom-0 left-0 flex justify-center w-full py-2 ml-1 text-center bg-zinc-50 dark:bg-zinc-900 gap-7 dark:bg-black50 md:hidden">
+            <div className="fixed bottom-0 left-0 flex justify-center w-full py-2 ml-1 text-center bg-zinc-50 dark:bg-zinc-900 gap-9 dark:bg-black50 md:hidden">
                 {/* Home */}
                 <Link href="/" rel="noopener noreferrer">
                     <button className="hover:text-neutral-700 dark:hover:text-gray-50">
