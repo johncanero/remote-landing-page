@@ -52,12 +52,12 @@ const index = () => {
             </div>
 
             <div>
-                <h1 className="flex justify-center mt-6 text-2xl font-bold lg:text-left font-Poppins dark:text-neutral-400">
+                <h1 className="flex justify-center mt-6 text-2xl font-bold lg:text-left font-Poppins dark:text-amber-400">
                     Career Opportunities
                 </h1>
             </div>
 
-            <div className='flex flex-wrap justify-center gap-10 mt-8 lg:mx-56'>
+            <div className='flex flex-wrap justify-center gap-10 mt-8 dark:text-black lg:mx-56'>
 
                 {/* Card */}
                 <div>

@@ -278,14 +278,14 @@ const Hero = () => {
       </div>
 
       {/* Desktop */}
-      <div className='flex mt-8 '>
-        <div className='justify-center hidden mx-auto lg:block'>
+      <div className='flex mt-8 mb-8'>
+        <div className='justify-center mx-auto flex w-10/12'>
           <Link rel="noopener noreferrer" href="/about">
             <a>
               <Image
                 width={1200}
                 height={600}
-                className="absolute top-0 bottom-0 left-0 right-0 w-full h-full overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
+                className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
                 src="/images/remoteWorkAppPresentation.png"
                 alt="Remote Work App Presentation"
               />
