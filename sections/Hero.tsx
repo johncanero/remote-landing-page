@@ -277,24 +277,35 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Desktop */}
-      <div className='flex mt-8 mb-8'>
-        <div className='justify-center mx-auto flex w-10/12'>
-          <Link rel="noopener noreferrer" href="/about">
-            <a>
-              <Image
-                width={1200}
-                height={600}
-                className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
-                src="/images/remoteWorkAppPresentation.png"
-                alt="Remote Work App Presentation"
-              />
-            </a>
-          </Link>
+
+      <div className="md:mt-12 lg:mt-20 mb-16">
+        <div className="mb-4">
+          <h2 className="text-center text-xl md:text-2xl lg:text-3xl font-semibold mb-3 md:mx-20 lg:mx-0">Introducing our comprehensive productivity tool designed for remote workers!</h2>
+          <p className="text-center text-base mx-8 lg:text-lg md:mx-36 lg:mx-96"><span>Stay organized, manage your time effectively</span>, and never miss an important deadline or task with our to-do list manager, fully integrated calendar, planning feature, and reminders.</p>
         </div>
+
+        {/* Image */}
+        <div className='flex my-6 lg:my-3'>
+          <div className='justify-center mx-auto flex w-10/12'>
+            <Link rel="noopener noreferrer" href="/about">
+              <a>
+                <Image
+                  width={1200}
+                  height={600}
+                  className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
+                  src="/images/remoteWorkAppPresentation.png"
+                  alt="Remote Work App Presentation"
+                />
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <p className="text-center lg:text-xl mx-8 italic md:mx-48 lg:mx-72">Keep on top of your workload and confidently manage your schedule from anywhere.</p>
+
       </div>
 
-
+     
     </div>
   );
 };
