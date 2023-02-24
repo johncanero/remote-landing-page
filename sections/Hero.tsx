@@ -278,15 +278,15 @@ const Hero = () => {
       </div>
 
 
-      <div className="md:mt-12 lg:mt-20 mb-16">
+      <div className="mb-16 md:mt-12 lg:mt-20">
         <div className="mb-4">
-          <h2 className="text-center text-xl md:text-2xl lg:text-3xl font-semibold mb-3 md:mx-20 lg:mx-0">Introducing our comprehensive productivity tool designed for remote workers!</h2>
-          <p className="text-center text-base mx-8 lg:text-lg md:mx-36 lg:mx-96"><span>Stay organized, manage your time effectively</span>, and never miss an important deadline or task with our to-do list manager, fully integrated calendar, planning feature, and reminders.</p>
+          <h2 className="mx-6 mb-3 text-lg font-semibold text-center md:text-2xl lg:text-3xl md:mx-20 lg:mx-0">Introducing our comprehensive productivity tool designed for remote workers!</h2>
+          <p className="mx-8 text-base text-center lg:text-lg md:mx-36 lg:mx-96"><span>Stay organized, manage your time effectively</span>, and never miss an important deadline or task with our to-do list manager, fully integrated calendar, planning feature, and reminders.</p>
         </div>
 
         {/* Image */}
         <div className='flex my-6 lg:my-3'>
-          <div className='justify-center mx-auto flex w-10/12'>
+          <div className='flex justify-center w-10/12 mx-auto'>
             <Link rel="noopener noreferrer" href="/about">
               <a>
                 <Image
@@ -301,7 +301,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <p className="text-center lg:text-xl mx-8 italic md:mx-48 lg:mx-72">Keep on top of your workload and confidently manage your schedule from anywhere.</p>
+        <p className="mx-8 italic text-center lg:text-xl md:mx-48 lg:mx-72">Keep on top of your workload and confidently manage your schedule from anywhere.</p>
 
       </div>
 
