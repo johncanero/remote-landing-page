@@ -11,6 +11,8 @@ import RemoteLogo from "../public/images/remoteLogo.png";
 import FeaturesDropdown from "../components/FeaturesDropdown";
 import CompanyDropdown from "../components/CompanyDropdown";
 import MobileDropdown from "../components/MobileDropdown";
+// Framer-Motion
+import { motion } from "framer-motion"
 
 
 function classNames(...classes: string[]) {
@@ -79,7 +81,13 @@ const Header = () => {
             {/* Mobile */}
             <div className="px-2 mx-auto shadow-sm md:hidden sm:block sm:px-6 lg:px-8 dark:bg-zinc-900">
               <div className="relative flex items-center justify-between h-16">
-                <div className="flex items-center flex-shrink-0 w-36">
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{
+                    duration: 0.3,
+                  }}
+                  className="flex items-center flex-shrink-0 w-36">
                   <Link href="/" passHref>
                     <Image
                       className="block lg:hidden"
@@ -87,7 +95,7 @@ const Header = () => {
                       alt="Your Company"
                     />
                   </Link>
-                </div>
+                </motion.div>
                 <div className="flex">
                   <div className="mt-2 mr-2">{renderThemeChanger()}</div>
                   <MobileDropdown />
@@ -99,7 +107,13 @@ const Header = () => {
             <div className="flex justify-center px-2 mx-auto shadow-sm sm:hidden md:block sm:px-6 md:px-8 lg:px-32 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
               <div className="relative flex items-center justify-between py-5">
                 <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
-                  <div className="flex items-center flex-shrink-0 h-8 md:w-32 lg:w-40">
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{
+                      duration: 0.3,
+                    }}
+                    className="flex items-center flex-shrink-0 h-8 md:w-32 lg:w-40">
                     {/* Image */}
                     <Link href="/" passHref>
                       <Image
@@ -108,7 +122,7 @@ const Header = () => {
                         alt="Your Company"
                       />
                     </Link>
-                  </div>
+                  </motion.div>
 
                   {/* Links */}
                   <FeaturesDropdown />

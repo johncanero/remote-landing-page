@@ -2,11 +2,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+// Images
 import HeroImage from "../public/images/heroImage.png";
 import AudioPhile from "../public/images/client-audiophile.svg";
 import DataBiz from "../public/images/client-databiz.svg";
 import Meet from "../public/images/client-meet.svg";
 import Maker from "../public/images/client-maker.svg";
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
@@ -14,7 +17,11 @@ const Hero = () => {
       <div className="lg:flex lg:justify-center font-Poppins">
         {/* Mobile and Tablet */}
         <div className="lg:hidden sm:mt-2 md:flex md:justify-center">
-          <div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          >
             <Image
               width={690}
               height={450}
@@ -22,15 +29,24 @@ const Hero = () => {
               src={HeroImage}
               alt="Hero Feature"
             />
-          </div>
+          </motion.div>
         </div>
 
         <div className=" sm:mx-8 md:mx-20 lg:mx-32">
-          <h1 className="text-4xl font-bold md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
-            Make remote work<span className="text-remoteOrange">.</span>
-            <span className="text-remoteBlue">.</span>
-            <span className="text-remoteLightBrown">.</span>
-          </h1>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              delay: 0.1,
+              duration: 0.5,
+            }}
+          >
+            <h1 className="text-4xl font-bold md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
+              Make remote work<span className="text-remoteOrange">.</span>
+              <span className="text-remoteBlue">.</span>
+              <span className="text-remoteLightBrown">.</span>
+            </h1>
+          </motion.div>
 
           <p className="mt-8 text-lg font-medium text-gray-500 lg:mr-24 md:mt-8 lg:mt-9 ">
             Get your team in sync, no matter your location. Streamline
@@ -42,7 +58,13 @@ const Hero = () => {
           </button>
 
           {/* Mobile */}
-          <div className="flex md:hidden">
+          <motion.div
+            initial={{ y: 5, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+              duration: 0.5,
+            }}
+            className="flex md:hidden">
             <div className="m-auto mt-12">
               <div className="flex">
                 <div className="mx-6 w-28">
@@ -62,10 +84,17 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Tablet and Desktop: Clients */}
-          <div>
+          <motion.div
+            initial={{ y: 5, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+              delay: 0.1,
+              duration: 0.5,
+            }}
+          >
             <div className="hidden md:flex md:justify-left md:mt-16 lg:mt-14">
               <div className="mr-5 w-36 md:mb-10">
                 <Image className="" src={DataBiz} alt="DataBiz Feature" />
@@ -80,11 +109,18 @@ const Hero = () => {
                 <Image className="" src={Maker} alt="Maker Feature" />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* Desktop */}
-        <div className="sm:hidden md:hidden lg:block lg:pr-20 lg:mt-20">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            delay: 0.2,
+            duration: 0.5,
+          }}
+          className="sm:hidden md:hidden lg:block lg:pr-20 lg:mt-20">
           <div className="">
             <Image
               width={1200}
@@ -94,7 +130,7 @@ const Hero = () => {
               alt="Hero Feature"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
 
 
@@ -106,7 +142,13 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className='flex my-6 lg:my-3'>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.3,
+          }}
+          className='flex my-6 lg:my-3'>
           <div className='flex justify-center w-10/12 mx-auto'>
             <Link rel="noopener noreferrer" href="/about">
               <a>
@@ -120,7 +162,7 @@ const Hero = () => {
               </a>
             </Link>
           </div>
-        </div>
+        </motion.div>
 
         <p className="mx-8 italic text-center lg:text-xl md:mx-48 lg:mx-72">Keep on top of your workload and confidently manage your schedule from anywhere.</p>
       </div>
@@ -132,7 +174,13 @@ const Hero = () => {
       <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
         <div className="justify-between md:flex">
           {/* Image */}
-          <div className="relative overflow-hidden bg-no-repeat bg-cover"
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.3,
+            }}
+            className="relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
             <div>
               <Link rel="noopener noreferrer" href="/features">
@@ -147,7 +195,7 @@ const Hero = () => {
                 </a>
               </Link>
             </div>
-          </div>
+          </motion.div>
 
           {/* Features - label */}
           <div className="mt-4 md:ml-9 md:mt-0">
@@ -236,7 +284,12 @@ const Hero = () => {
           {/* Image - Desktop and Tablet*/}
           <div className="relative hidden overflow-hidden bg-no-repeat bg-cover md:block"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
-            <div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                duration: 0.3,
+              }}>
               <Link rel="noopener noreferrer" href="/company">
                 <a>
                   <Image
@@ -248,7 +301,7 @@ const Hero = () => {
                   />
                 </a>
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -258,7 +311,13 @@ const Hero = () => {
       <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
         <div className="justify-between md:flex">
           {/* Image */}
-          <div className="relative overflow-hidden bg-no-repeat bg-cover"
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.3,
+            }}
+            className="relative overflow-hidden bg-no-repeat bg-cover"
             data-mdb-ripple="true" data-mdb-ripple-color="light">
             <div>
               <Link rel="noopener noreferrer" href="/careers">
@@ -273,7 +332,7 @@ const Hero = () => {
                 </a>
               </Link>
             </div>
-          </div>
+          </motion.div>
 
           {/* Careers - label */}
           <div className="mt-4 md:ml-9 md:mt-0">
@@ -307,10 +366,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-
-
-
     </div>
   );
 };

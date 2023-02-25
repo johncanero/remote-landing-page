@@ -6,6 +6,9 @@ import CompanyDropdown from "./CompanyDropdown";
 import { MdNaturePeople } from "@react-icons/all-files/md/MdNaturePeople";
 import { FcAbout } from "@react-icons/all-files/fc/FcAbout";
 import Link from "next/link";
+// Framer-Motion
+import { motion } from "framer-motion"
+
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
