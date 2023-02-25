@@ -168,10 +168,8 @@ const Hero = () => {
       </div>
 
 
-
-
       {/* Features Section */}
-      <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
+      <div className="mt-6 mb-8 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
         <div className="justify-between md:flex">
           {/* Image */}
           <motion.div
@@ -227,7 +225,7 @@ const Hero = () => {
       </div>
 
       {/* Company Section */}
-      <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
+      <div className="mt-6 mb-8 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
         <div className="justify-between md:flex">
 
           {/* Image - Mobile*/}
