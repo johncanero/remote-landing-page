@@ -70,13 +70,13 @@ const Hero = () => {
               <div className="mr-5 w-36 md:mb-10">
                 <Image className="" src={DataBiz} alt="DataBiz Feature" />
               </div>
-              <div className="w-24 mx-10 md:mb-10">
+              <div className="w-24 mx-10 md:mb-6">
                 <Image className="" src={AudioPhile} alt="AudioPhile Feature" />
               </div>
-              <div className="w-24 mx-10 md:mb-10">
+              <div className="w-24 mx-10 md:mb-6">
                 <Image className="" src={Meet} alt="Meet Feature" />
               </div>
-              <div className="w-24 mx-10 md:mb-10">
+              <div className="w-24 mx-10 md:mb-6">
                 <Image className="" src={Maker} alt="Maker Feature" />
               </div>
             </div>
@@ -96,6 +96,37 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+
+      {/* Application */}
+      <div className="mt-4 md:mb-12 lg:mb-20 lg:mt-8">
+        <div className="mb-4">
+          <h2 className="mx-6 mb-3 text-lg font-semibold text-center md:text-2xl lg:text-3xl md:mx-20 lg:mx-0">Introducing our comprehensive productivity tool designed for remote workers!</h2>
+          <p className="mx-8 text-base text-center lg:text-lg md:mx-36 lg:mx-96"><span>Stay organized, manage your time effectively</span>, and never miss an important deadline or task with our to-do list manager, fully integrated calendar, planning feature, and reminders.</p>
+        </div>
+
+        {/* Image */}
+        <div className='flex my-6 lg:my-3'>
+          <div className='flex justify-center w-10/12 mx-auto'>
+            <Link rel="noopener noreferrer" href="/about">
+              <a>
+                <Image
+                  width={1200}
+                  height={600}
+                  className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
+                  src="/images/remoteWorkAppPresentation.png"
+                  alt="Remote Work App Presentation"
+                />
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <p className="mx-8 italic text-center lg:text-xl md:mx-48 lg:mx-72">Keep on top of your workload and confidently manage your schedule from anywhere.</p>
+      </div>
+
+
+
 
       {/* Features Section */}
       <div className="mt-6 mb-12 sm:mx-8 md:mx-20 lg:mx-32 md:mt-0">
@@ -278,34 +309,8 @@ const Hero = () => {
       </div>
 
 
-      <div className="mb-16 md:mt-12 lg:mt-20">
-        <div className="mb-4">
-          <h2 className="mx-6 mb-3 text-lg font-semibold text-center md:text-2xl lg:text-3xl md:mx-20 lg:mx-0">Introducing our comprehensive productivity tool designed for remote workers!</h2>
-          <p className="mx-8 text-base text-center lg:text-lg md:mx-36 lg:mx-96"><span>Stay organized, manage your time effectively</span>, and never miss an important deadline or task with our to-do list manager, fully integrated calendar, planning feature, and reminders.</p>
-        </div>
 
-        {/* Image */}
-        <div className='flex my-6 lg:my-3'>
-          <div className='flex justify-center w-10/12 mx-auto'>
-            <Link rel="noopener noreferrer" href="/about">
-              <a>
-                <Image
-                  width={1200}
-                  height={600}
-                  className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden transition duration-300 ease-in-out bg-fixed opacity-100 rounded-3xl hover:opacity-80"
-                  src="/images/remoteWorkAppPresentation.png"
-                  alt="Remote Work App Presentation"
-                />
-              </a>
-            </Link>
-          </div>
-        </div>
 
-        <p className="mx-8 italic text-center lg:text-xl md:mx-48 lg:mx-72">Keep on top of your workload and confidently manage your schedule from anywhere.</p>
-
-      </div>
-
-     
     </div>
   );
 };
