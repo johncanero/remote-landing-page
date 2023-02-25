@@ -1,11 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const index = () => {
     return (
         <div>
             {/* Desktop */}
-            <div className='flex justify-center mt-8'>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                    duration: 0.3,
+                }}
+                className='flex justify-center mt-8'>
                 <div className='hidden lg:block'>
                     <Image
                         width={1200}
@@ -15,10 +23,16 @@ const index = () => {
                         alt="Remote Work App Presentation"
                     />
                 </div>
-            </div>
+            </motion.div>
 
             {/* Tablet & Mobile */}
-            <div className='md:mt-6'>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                    duration: 0.3,
+                }}
+                className='md:mt-6'>
                 <div className='flex justify-center mx-auto w-80 md:w-full lg:hidden'>
                     <Image
                         width={700}
@@ -28,7 +42,7 @@ const index = () => {
                         alt="Remote Work App Presentation"
                     />
                 </div>
-            </div>
+            </motion.div>
 
             {/* 
             <div>

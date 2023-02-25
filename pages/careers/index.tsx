@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+// React Icons
 import { MdComputer } from '@react-icons/all-files/md/MdComputer'
 import { BiPen } from '@react-icons/all-files/bi/BiPen'
 import { AiOutlineFileWord } from '@react-icons/all-files/ai/AiOutlineFileWord'
@@ -20,13 +21,21 @@ import { MdSupervisorAccount } from '@react-icons/all-files/md/MdSupervisorAccou
 import { FcSalesPerformance } from '@react-icons/all-files/fc/FcSalesPerformance'
 import { FaUniversity } from '@react-icons/all-files/fa/FaUniversity'
 import { AiOutlineEdit } from '@react-icons/all-files/ai/AiOutlineEdit'
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const index = () => {
     return (
         <div className='mb-28'>
 
             {/* Desktop */}
-            <div className='flex justify-center mt-8'>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                    duration: 0.3,
+                }}
+                className='flex justify-center mt-8'>
                 <div className='hidden lg:block'>
                     <Image
                         width={900}
@@ -36,10 +45,16 @@ const index = () => {
                         alt="Careers Card"
                     />
                 </div>
-            </div>
+            </motion.div>
 
             {/* Tablet & Mobile */}
-            <div className='flex justify-center md:mt-6'>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                    duration: 0.3,
+                }}
+                className='flex justify-center md:mt-6'>
                 <div className='lg:hidden '>
                     <Image
                         width={500}
@@ -49,7 +64,7 @@ const index = () => {
                         alt="Careers Card"
                     />
                 </div>
-            </div>
+            </motion.div>
 
             <div>
                 <h1 className="flex justify-center mt-6 text-2xl font-bold lg:text-left font-Poppins dark:text-amber-400">
@@ -60,7 +75,10 @@ const index = () => {
             <div className='flex flex-wrap justify-center gap-10 mt-8 dark:text-black lg:mx-56'>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Software Development</h2>
@@ -68,10 +86,13 @@ const index = () => {
                             <MdComputer className='mx-auto mt-2' size={80} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Graphic Design</h2>
@@ -79,10 +100,13 @@ const index = () => {
                             <BiPen className='mx-auto mt-2' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Writing</h2>
@@ -90,10 +114,13 @@ const index = () => {
                             <AiOutlineFileWord className='mx-auto mt-8' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Virtual Assistance</h2>
@@ -101,10 +128,13 @@ const index = () => {
                             <BsPersonPlus className='mx-auto mt-3' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Translation</h2>
@@ -112,10 +142,13 @@ const index = () => {
                             <HiOutlineTranslate className='mx-auto mt-8' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Customer Service</h2>
@@ -123,10 +156,13 @@ const index = () => {
                             <AiOutlineCustomerService className='mx-auto mt-12' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Online Teaching</h2>
@@ -134,10 +170,13 @@ const index = () => {
                             <FaChalkboardTeacher className='mx-auto mt-12' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Marketing</h2>
@@ -145,10 +184,13 @@ const index = () => {
                             <FaHandHoldingUsd className='mx-auto mt-5' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Data Analysis</h2>
@@ -156,10 +198,13 @@ const index = () => {
                             <AiOutlineDatabase className='mx-auto mt-5' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Project Management</h2>
@@ -167,10 +212,13 @@ const index = () => {
                             <FaRegObjectUngroup className='mx-auto mt-10' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Accounting</h2>
@@ -178,10 +226,13 @@ const index = () => {
                             <AiOutlineCalculator className='mx-auto mt-10' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Human Resources</h2>
@@ -189,10 +240,13 @@ const index = () => {
                             <GrResources className='mx-auto mt-6' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Legal</h2>
@@ -200,10 +254,13 @@ const index = () => {
                             <VscLaw className='mx-auto mt-4' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Healthcare</h2>
@@ -211,10 +268,13 @@ const index = () => {
                             <RiHealthBookLine className='mx-auto mt-9' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Architecture and Engineering</h2>
@@ -222,11 +282,14 @@ const index = () => {
                             <AiOutlineHome className='mx-auto mt-3' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Event and Planning</h2>
@@ -234,12 +297,15 @@ const index = () => {
                             <BsCalendar className='mx-auto mt-10' size={62} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
 
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Public Relations</h2>
@@ -247,11 +313,14 @@ const index = () => {
                             <MdSupervisorAccount className='mx-auto mt-4' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Sales</h2>
@@ -259,10 +328,13 @@ const index = () => {
                             <FcSalesPerformance className='mx-auto mt-3' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Education</h2>
@@ -270,10 +342,13 @@ const index = () => {
                             <FaUniversity className='mx-auto mt-5' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Card */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <div className="pt-6 overflow-hidden shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-yellow-300 to-amber-400 hover:from-amber-400 hover:to-yellow-300">
                         <div className="px-6">
                             <h2 className="mb-2 text-lg font-bold text-center font-OpenSans">Editing and Proofreading</h2>
@@ -281,7 +356,7 @@ const index = () => {
                             <AiOutlineEdit className='mx-auto mt-5' size={70} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
             {/* Chat GPT */}
             <div className='mt-12 text-center'>
