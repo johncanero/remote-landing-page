@@ -32,7 +32,7 @@ const Hero = () => {
             <span className="text-remoteLightBrown">.</span>
           </h1>
 
-          <p className="mt-8 text-lg font-medium text-gray-500 lg:mr-24 md:mt-11 lg:mt-12 ">
+          <p className="mt-8 text-lg font-medium text-gray-500 lg:mr-24 md:mt-8 lg:mt-9 ">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
