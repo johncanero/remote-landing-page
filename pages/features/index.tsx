@@ -33,11 +33,11 @@ const index = () => {
                     duration: 0.3,
                 }}
                 className='flex justify-center md:mt-6'>
-                <div className='lg:hidden '>
+                <div className='lg:hidden w-80 md:w-auto'>
                     <Image
                         width={500}
                         height={300}
-                        className="absolute top-0 bottom-0 left-0 right-0 md:rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0 rounded-3xl md:rounded-3xl"
                         src="/images/remoteWorkFeatureCompressed.jpg"
                         alt="Remote Work Feature"
                     />
