@@ -18,7 +18,7 @@ const index = () => {
                     <Image
                         width={900}
                         height={500}
-                        className=" absolute top-0 right-0 bottom-0 left-0 w-full h-full rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-3xl"
                         src="/images/remoteWorkFeatureCompressed.jpg"
                         alt="Remote Work Feature"
                     />
@@ -37,7 +37,7 @@ const index = () => {
                     <Image
                         width={500}
                         height={300}
-                        className=" absolute top-0 right-0 bottom-0 left-0 md:rounded-3xl"
+                        className="absolute top-0 bottom-0 left-0 right-0 md:rounded-3xl"
                         src="/images/remoteWorkFeatureCompressed.jpg"
                         alt="Remote Work Feature"
                     />
@@ -47,7 +47,7 @@ const index = () => {
 
 
             <div className='sm:mx-8 md:mx-20 lg:mx-24'>
-                <h1 className="flex justify-center mt-6 md:mt-3 lg:mt-0 text-2xl font-bold  lg:text-left font-Poppins dark:text-amber-400">
+                <h1 className="flex justify-center mt-6 text-2xl font-bold md:mt-3 lg:mt-0 lg:text-left font-Poppins dark:text-amber-400">
                     Features
                 </h1>
 
@@ -94,7 +94,7 @@ const index = () => {
                         </p>
 
                         {/* Chat GPT */}
-                        <p className="mt-4 text-xs font-ShareTechMono md:text-sm dark:text-remoteLightBrown">
+                        <p className="mt-4 text-xs font-ShareTechMono md:text-sm text-zinc-400 dark:text-zinc-600">
                             From ChatGPT: Optimizing Language Model for Dialogue
                         </p>
                     </div>

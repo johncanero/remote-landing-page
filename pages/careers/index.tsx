@@ -360,7 +360,7 @@ const index = () => {
             </div>
             {/* Chat GPT */}
             <div className='mt-12 text-center'>
-                <p className="mt-4 text-xs font-ShareTechMono md:text-sm dark:text-remoteLightBrown">
+                <p className="mt-4 text-xs font-ShareTechMono md:text-sm text-zinc-400 dark:tetx-zinc-600">
                     From ChatGPT: Optimizing Language Model for Dialogue
                 </p>
             </div>
