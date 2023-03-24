@@ -14,7 +14,7 @@ import { motion } from "framer-motion"
 const Hero = () => {
   return (
     <div>
-      <div className="lg:flex lg:justify-center font-Poppins">
+      <div className="mx-auto lg:flex lg:px-44 lg:justify-center font-Poppins">
         {/* Mobile and Tablet */}
         <div className="lg:hidden sm:mt-2 md:flex md:justify-center">
           <motion.div
@@ -32,7 +32,7 @@ const Hero = () => {
           </motion.div>
         </div>
 
-        <div className=" sm:mx-8 md:mx-20 lg:mx-32">
+        <div>
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -41,7 +41,7 @@ const Hero = () => {
               duration: 0.5,
             }}
           >
-            <h1 className="text-4xl font-bold md:mt-4 md:text-7xl lg:text-8xl lg:mt-28 ">
+            <h1 className="text-4xl font-bold md:mt-4 md:text-7xl lg:text-8xl lg:mt-20">
               Make remote work<span className="text-remoteOrange">.</span>
               <span className="text-remoteBlue">.</span>
               <span className="text-remoteLightBrown">.</span>
@@ -120,11 +120,11 @@ const Hero = () => {
             delay: 0.2,
             duration: 0.5,
           }}
-          className="sm:hidden md:hidden lg:block lg:pr-20 lg:mt-20">
+          className="sm:hidden md:hidden lg:block lg:mt-16">
           <div className="">
             <Image
               width={1200}
-              height={900}
+              height={850}
               className="block"
               src={HeroImage}
               alt="Hero Feature"
