@@ -14,7 +14,7 @@ import { motion } from "framer-motion"
 const Hero = () => {
   return (
     <div>
-      <div className="mx-auto lg:flex lg:px-44 lg:justify-center font-Poppins">
+      <div className="mx-auto px-7 md:px-16 lg:flex lg:px-44 lg:justify-center font-Poppins">
         {/* Mobile and Tablet */}
         <div className="lg:hidden sm:mt-2 md:flex md:justify-center">
           <motion.div
@@ -23,8 +23,8 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <Image
-              width={690}
-              height={450}
+              width={700}
+              height={480}
               className="block"
               src={HeroImage}
               alt="Hero Feature"

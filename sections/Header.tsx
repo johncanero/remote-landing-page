@@ -35,7 +35,7 @@ const Header = () => {
     if (currentTheme === "light") {
       return (
         <button
-          className="p-2 rounded-lg text-zinc-900 dark:text-zinc-200 "
+          className="p-2 pl-0 rounded-lg md:pl-3 text-zinc-900 dark:text-zinc-200 "
           onClick={() => setTheme("dark")}
         >
           {/* Moon */}
@@ -52,7 +52,7 @@ const Header = () => {
     } else {
       return (
         <button
-          className="p-2 rounded-lg text-zinc-900 dark:text-zinc-200"
+          className="p-2 pl-0 rounded-lg md:pl-3 text-zinc-900 dark:text-zinc-200"
           onClick={() => setTheme("light")}
         >
           {/* Sun */}
@@ -104,7 +104,7 @@ const Header = () => {
             </div>
 
             {/* Tablet and Desktop */}
-            <div className="flex justify-center px-2 mx-auto shadow-sm sm:hidden md:block sm:px-6 md:px-8 lg:px-44 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
+            <div className="justify-center hidden mx-auto shadow-sm sm:hidden md:block md:px-6 lg:px-44 dark:bg-zinc-900 dark:shadow-sm dark:shadow-zinc-800">
               <div className="relative flex items-center justify-between py-7">
                 <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
                   <motion.div
