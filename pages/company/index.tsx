@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 // Framer-Motion
@@ -8,6 +9,17 @@ import { motion } from "framer-motion"
 const index = () => {
     return (
         <div>
+            <Head>
+                <title>Company / Remote</title>
+                <meta
+                    name="description"
+                    content="Features: Remote"
+                />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Company: Remote" />
+                <meta property="og:description" content="Company: Remote" />
+                {/* Sitemap */}
+            </Head>
             {/* Desktop */}
             <motion.div
                 initial={{ opacity: 0 }}
