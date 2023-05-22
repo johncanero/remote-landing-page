@@ -13,6 +13,7 @@ import CompanyDropdown from "../components/CompanyDropdown";
 import MobileDropdown from "../components/MobileDropdown";
 // Framer-Motion
 import { motion } from "framer-motion"
+import Login from "../components/Login";
 
 
 function classNames(...classes: string[]) {
@@ -158,9 +159,8 @@ const Header = () => {
                     href="/"
                   >
                     <a>
-                      <div className="py-2 text-base font-medium md:mr-6 text-zinc-600 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300 font-Poppins">
-                        Login
-                      </div>
+                      {/* Login Component */}
+                      <Login />
                     </a>
                   </Link>
                   {/* Profile dropdown */}
