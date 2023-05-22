@@ -1,13 +1,21 @@
+import Link from "next/link";
 import { Fragment } from "react";
+// Headles UI React
 import { Menu, Transition } from "@headlessui/react";
-import { GoThreeBars } from "@react-icons/all-files/go/GoThreeBars";
+// Components
 import FeaturesDropdown from "./FeaturesDropdown";
 import CompanyDropdown from "./CompanyDropdown";
+import Login from "./Login";
+// Icons
 import { MdNaturePeople } from "@react-icons/all-files/md/MdNaturePeople";
 import { FcAbout } from "@react-icons/all-files/fc/FcAbout";
-import Link from "next/link";
+import { GoThreeBars } from "@react-icons/all-files/go/GoThreeBars";
+import { ArrowLeftOnRectangleIcon } from '@heroicons/react/24/outline';
 // Framer-Motion
 import { motion } from "framer-motion"
+import LoginMobile from "./LoginMobile";
+// NextAuth
+import { useSession, signIn, signOut } from "next-auth/react"
 
 
 function classNames(...classes: string[]) {
@@ -33,8 +41,8 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="relative z-10 w-48 bg-white rounded-lg shadow-lg mt-96 h-96 ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="py-1">
+      <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-20">
+          <div>
             <Menu.Item>
               {({ active }) => (
                 <Link rel="noopener noreferrer"
@@ -113,16 +121,30 @@ export default function Example() {
                 >
                   <div className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-600",
-                    "flex justify-center px-4 py-4 mt-1 text-base font-Poppins font-medium"
+                    "flex px-4 py-4 mt-1 text-base font-Poppins font-medium"
                   )}>
-
-                    Login
+                    <LoginMobile />
                   </div>
                 </Link>
               )}
             </Menu.Item>
 
-
+            {/* Logout */}
+            <Menu.Item>
+              {/* Logout */}
+              {({ active }) => (
+                <button
+                  className={`${active
+                    ? "bg-blue-500 text-white"
+                    : "text-gray-900"
+                    } group flex items-center rounded-md px-4 py-2 text-sm font-Poppins`}
+                  onClick={(() => signOut())}
+                >
+                  <ArrowLeftOnRectangleIcon className="w-6" />
+                  <span className="ml-2 font-medium font-OpenSans">Logout</span>
+                </button>
+              )}
+            </Menu.Item>
 
             <Menu.Item as="div" className="relative">
               <div>
