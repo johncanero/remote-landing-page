@@ -16,7 +16,7 @@ const LoginMobile: React.FC<Props> = ({ }) => {
                     <img
                         src={session.user?.image!}
                         alt='user-avatar'
-                        className='w-6 mx-auto rounded-full cursor-pointer md:w-7 2xl:h-12 2xl:w-12 hover:opacity-50'
+                        className='w-5 mx-auto rounded-full cursor-pointer 2xl:h-12 2xl:w-12 hover:opacity-50'
                     />
                     <p className="ml-2 font-medium font-OpenSans">{session.user?.name!}</p>
                 </div>
